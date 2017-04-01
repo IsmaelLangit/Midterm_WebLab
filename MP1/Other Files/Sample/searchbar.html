@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0118)file:///C:/Users/Ismael%20Langit/Desktop/Documents/Repositories/Midterm_WebLab/MP1/Other%20Files/Sample/searchbar.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+
+<form>
+Category:
+<select id="mySelect">
+  <option value="PP">PP</option>
+  <option value="Li">Li</option>
+  <option value="G">G</option>
+</select>
+
+<br>
+Number : 
+<input type="number" id="myTextarea">
+</form>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p id="output">PP-</p>
+
+<script>
+function myFunction() {
+    var category = document.getElementById("mySelect").value;
+    var num =document.getElementById("myTextarea").value;
+ 
+	document.getElementById("output").innerHTML = category + "-" + num;    
+}
+</script>
+
+
+
+</body></html>
