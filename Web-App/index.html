@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>LibWaze</title>
+	<Link rel="stylesheet" href="styles/classes.css" />
+	<Link rel="stylesheet" href="styles/nav.css" />
+	<Link rel="stylesheet" href="styles/font.css" />
+	<Link rel="icon" href="images/icon/icon.png">
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<body>
+
+<header>
+<nav>
+		<a href="#Contact">4th Floor</a>
+		<a href="#Favorite">5th Floor</a>
+		<a href="#Hobbies">6th Floor</a>
+</nav>
+</header>
+
+<div class="top-page cover"> 
+	<img id = "logotitle" src  ="images/icon/icon.png" alt="logo"> 
+	<h1 id = "nametitle"> LibWaze </h1> 
+	<h2 id = "descnametitle"> SHOWS ROUTES, FINDS BOOKS </h2>
+	<a href="#about" ><img id = "arrow1" src  ="images/icon/down1.png" alt="logo" onmouseover="this.src='images/icon/down2.png'" onmouseout="this.src = 'images/icon/down1.png'"></a>
+</div>
+
+<div class="content about-page" id="about">
+	<div class = "subcontent" id = "intro">
+	<h1> LibWaze </h1>
+	<p> <strong>LibWaze</strong> is a web-application that helps students in Saint Louis University, Baguio City - Main Campus in navigating on the three floors of the library in Msgr. Charles Vath Building. Students can search books by book ID or find a specific sub-section of the library, then LibWaze will show you the route or way going to it.</p>
+	</div>
+
+	<div class = "subcontent" id = "easy">
+		<img id = "easy-logo" src  ="images/icon/easy.png" alt="logo" onmouseover="this.src='images/icon/easy2.png'" onmouseout="this.src = 'images/icon/easy.png'">
+		<h2> EASY </h2>
+		<p> The interface is easy to understand and use. </p>
+	</div>
+
+	<div class = "subcontent" id = "interactive">
+		<img id = "interactive-logo" src  ="images/icon/interactive.png" alt="logo" onmouseover="this.src='images/icon/interactive2.png'" onmouseout="this.src = 'images/icon/interactive.png'">
+		<h2> INTERACTIVE </h2>
+		<p> When you start finding the location of the book or subsection, with one click, it shows the route on the map. </p>
+	</div>
+
+	<div class = "subcontent" id = "arrow">
+	<a href="#start"><img id = "arrow2" src  ="images/icon/down3.png" alt="logo" onmouseover="this.src='images/icon/down4.png'" onmouseout="this.src = 'images/icon/down3.png'"></a>
+	</div>
+
+
+</div>
+
+<div class="content start-page" id="start">
+
+</div>
+
+<div class="content contact-page" id="contact">
+	
+</div>
+
+
+<footer>
+    <p>COPYRIGHT - LIBWAZE &copy; 2017</p>
+</footer>
+
+</body>
+</html>

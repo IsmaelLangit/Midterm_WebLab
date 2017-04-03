@@ -1,0 +1,30 @@
+/* NAV.CSS*/
+
+/* Import Font */
+
+nav {
+position : fixed;
+width : 100%;
+height : 6%;
+background: rgba(0,0,0,0.3);
+text-align : center;
+z-index: 10;
+padding: 7px 0;
+}
+
+nav a {
+font-family: 'Helvetica Neue', sans-serif;
+color : #eff5f5;
+padding : 0 25px;
+text-align : center;
+font-size: 4.5vmin;
+}
+
+nav a:hover {
+background-color : #bfd9d9;
+color : #132020;
+border-radius: 25px;
+transition: all 0.50s;
+padding: 2px 30px;
+}
+

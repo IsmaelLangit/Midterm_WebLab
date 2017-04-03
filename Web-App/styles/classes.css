@@ -1,0 +1,65 @@
+/* CLASS.CSS*/
+
+/* Modifying class styles */
+
+.top-page, .start-page {
+	background-size : cover;
+	background-repeat : no-repeat;
+	text-align : center;
+	background-attachment: fixed;
+	background-image : url("../images/background/cover.png");
+	height: 100vh;
+}
+
+.about-page, .contact-page {
+	background-color: #eff5f5;
+	height: 100vh;
+	padding: 0 10%;
+}
+
+/* top-page */
+#logotitle {
+	width: 18%;
+    height: auto;
+	padding-top :8%;
+}
+
+#arrow1 {
+	padding-top: 5%;
+	width: 3.5%;
+	height: auto;
+}
+
+/* about-page */
+.about-page {
+	padding: 0 10%;
+}
+
+#easy, #interactive {
+	width: 50%;
+	float: left;
+}
+
+#easy-logo, #interactive-logo {
+	width: 35%;
+    height: auto;
+    margin : 0 30%;
+}
+
+
+#arrow2 {
+	width: 3.5vmin;
+	height: auto;
+	margin: 0 48.25%;
+}
+/* footer */
+footer {
+	clear: both;
+	background : white;
+	letter-spacing : 1;
+	color : black;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
