@@ -91,7 +91,7 @@
 footer {
 	clear: both;
 	background : white;
-	letter-spacing : 1;
+	letter-spacing : 1px;
 	color : black;
 	padding: 10px;
 	text-align: center;
