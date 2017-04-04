@@ -10,33 +10,6 @@
 	<Link rel="icon" href="images/icon/icon.png">
 </head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
 <body>
 
 <header>
@@ -61,13 +34,13 @@ $(document).ready(function(){
 	</div>
 
 	<div class = "subcontent" id = "easy">
-		<img id = "easy-logo" src  ="images/icon/easy.png" alt="logo" onmouseover="this.src='images/icon/easy2.png'" onmouseout="this.src = 'images/icon/easy.png'">
+		<img id = "easy-logo" src  ="images/icon/easy.png" alt="easy" onmouseover="this.src='images/icon/easy2.png'" onmouseout="this.src = 'images/icon/easy.png'">
 		<h2> EASY </h2>
 		<p> The interface is easy to understand and use. </p>
 	</div>
 
 	<div class = "subcontent" id = "interactive">
-		<img id = "interactive-logo" src  ="images/icon/interactive.png" alt="logo" onmouseover="this.src='images/icon/interactive2.png'" onmouseout="this.src = 'images/icon/interactive.png'">
+		<img id = "interactive-logo" src  ="images/icon/interactive.png" alt="interactive" onmouseover="this.src='images/icon/interactive2.png'" onmouseout="this.src = 'images/icon/interactive.png'">
 		<h2> INTERACTIVE </h2>
 		<p> When you start finding the location of the book or subsection, with one click, it shows the route on the map. </p>
 	</div>
@@ -80,7 +53,47 @@ $(document).ready(function(){
 </div>
 
 <div class="content start-page" id="start">
+	<h2> Find the location of the book </h2>
 
+	<div class = "left-content">
+		<form id="form1">
+			<span id ="section-span">Section:</span>:
+			<select id="mySelect">
+			  <option value="PP">PP</option>
+			  <option value="Li">Li</option>
+			  <option value="G">G</option>
+			</select>
+		</form>
+
+		<form id="form2">
+			<span id ="ddc-span">DDC Number : </span> 
+			<input type="number" id="text-search" required>
+			<button id = "button-home" type="submit" onclick="myFunction()">FIND</button>
+		</form>
+
+
+		<div class = "output">
+		<p id="output"></p>
+		</div>
+
+		<script>
+		function myFunction() {
+		    var category = document.getElementById("mySelect").value;
+		    var num =document.getElementById("text-search").value;
+		 	
+
+		 	if(num != ""){
+		 		document.getElementById("output").innerHTML = category + "-" + num; 
+		 	}
+			
+
+		}
+		</script>
+	</div>
+
+	<div class = "right-content">
+		<img id = "callnum" src  ="images/info/callnum.png" alt="call number">
+	</div>
 </div>
 
 <div class="content contact-page" id="contact">

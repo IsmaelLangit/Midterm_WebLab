@@ -8,12 +8,8 @@ margin : 0;
 padding : 0;
 list-style : none;
 text-decoration : none;
+font-family : 'Helvetica Neue', sans-serif;
 }
-
-h1, h2, p {
-	font-family : 'Helvetica Neue', sans-serif;
-}
-
 
 /* top-page */
 .top-page h1 {
@@ -69,6 +65,47 @@ h1, h2, p {
 }
 
 /* start-page */
+
+.start-page h2 {
+	color : #d6f5f5;
+	font-size : 4.8vmin;
+	font-weight : bold;
+	text-align: center;
+	padding-top: 10vmin;
+}
+
+.start-page span {
+	color : #d6f5f5;
+	font-size : 4.5vmin;
+}
+
+
+#output {
+	color : #132020;
+	font-size : 4vmin;
+	font-weight : bold;
+}
+
+#button-home {
+	background-color : #132020;
+	color : #bfd9d9;
+    border: none;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 4vmin;
+    margin-top: 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px 45%;
+
+}
+
+.left-content select, .left-content input{
+	color : black;
+	font-size : 4vmin;
+	font-weight : bold;	
+	margin-left: 20px;
+}
 
 /* contact-page */
 

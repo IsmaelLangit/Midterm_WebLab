@@ -52,6 +52,37 @@
 	height: auto;
 	margin: 0 48.25%;
 }
+/* start-page */
+
+.left-content, .right-content {
+	width: 50%;
+	float: left;
+}
+
+#callnum{
+	padding-top: 10vmin;
+	width: 90%;
+	height: auto;
+	margin-right: 10%;
+}
+
+#text-search {
+	width: 30vmin;
+}
+
+#form1 {
+	padding-top: 25vmin;
+	padding-bottom: 4vmin;
+}
+
+.output {
+	background-color: #d6f5f5;
+	width: 80%;
+	margin : 20px 10%;
+}
+
+
+
 /* footer */
 footer {
 	clear: both;

@@ -2,29 +2,31 @@
 <!-- saved from url=(0118)file:///C:/Users/Ismael%20Langit/Desktop/Documents/Repositories/Midterm_WebLab/MP1/Other%20Files/Sample/searchbar.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
 
-<form>
-Category:
+
+<form id="form1">
+<span id ="section-span">Section:</span>:
 <select id="mySelect">
   <option value="PP">PP</option>
   <option value="Li">Li</option>
   <option value="G">G</option>
 </select>
-
-<br>
-Number : 
-<input type="number" id="myTextarea">
 </form>
 
-<button type="button" onclick="myFunction()">Try it</button>
+<form id="form2">
+<span id ="ddc-span">DDC Number : </span> 
+<input type="number" id="text-search">
+</form>
 
-<p id="output">PP-</p>
+<button id = "buttonhome" type="button" onclick="myFunction()">FIND</button>
+
+<p id="output"></p>
 
 <script>
 function myFunction() {
     var category = document.getElementById("mySelect").value;
-    var num =document.getElementById("myTextarea").value;
+    var num =document.getElementById("text-search").value;
  
-	document.getElementById("output").innerHTML = category + "-" + num;    
+	document.getElementById("output").innerHTML = category + "-" + num; 
 }
 </script>
 
