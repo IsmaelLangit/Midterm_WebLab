@@ -17,6 +17,11 @@
 	padding: 0 10%;
 }
 
+.arrow {
+	width: 3.5%;
+	height: auto;
+}
+
 /* top-page */
 #logotitle {
 	width: 18%;
@@ -25,9 +30,7 @@
 }
 
 #arrow1 {
-	padding-top: 5%;
-	width: 3.5%;
-	height: auto;
+	padding-top: 3.5%;
 }
 
 /* about-page */
@@ -46,10 +49,7 @@
     margin : 0 30%;
 }
 
-
 #arrow2 {
-	width: 3.5vmin;
-	height: auto;
 	margin: 0 48.25%;
 }
 /* start-page */
@@ -60,7 +60,7 @@
 }
 
 #callnum{
-	padding-top: 10vmin;
+	padding-top: 8vmin;
 	width: 90%;
 	height: auto;
 	margin-right: 10%;
@@ -79,6 +79,10 @@
 	background-color: #d6f5f5;
 	width: 80%;
 	margin : 20px 10%;
+}
+
+#arrow3 {
+	padding-top: 3%;
 }
 
 
