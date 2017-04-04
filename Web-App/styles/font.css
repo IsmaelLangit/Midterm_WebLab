@@ -54,10 +54,10 @@ font-family : 'Helvetica Neue', sans-serif;
 	box-shadow: 1.8vmin 1.8vmin .9vmin #888888;
 	padding: 2.5vmin;
 	font-size: 2.5vmin;
-    margin : 0 25%;
+    margin : 0 20%;
     text-align: center;
     display: block;
-    width: 50%;
+    width: 60%;
 }
 
 #easy h2,#interactive h2{
