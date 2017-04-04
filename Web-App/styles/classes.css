@@ -20,6 +20,8 @@
 .arrow {
 	width: 3.5%;
 	height: auto;
+	margin: 3% 48.25% 0 48.25%;
+	clear: both;
 }
 
 /* top-page */
@@ -29,9 +31,7 @@
 	padding-top :8%;
 }
 
-#arrow1 {
-	padding-top: 3.5%;
-}
+
 
 /* about-page */
 .about-page {
@@ -49,9 +49,7 @@
     margin : 0 30%;
 }
 
-#arrow2 {
-	margin: 0 48.25%;
-}
+
 /* start-page */
 
 .left-content, .right-content {
@@ -81,9 +79,7 @@
 	margin : 20px 10%;
 }
 
-#arrow3 {
-	padding-top: 3%;
-}
+
 /* contact-page */
 
 
