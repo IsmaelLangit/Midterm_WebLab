@@ -314,19 +314,33 @@
 </g>
 
 <script>
-var end1 = "755, 140"
-var y = "685,336 685,222 254, 345 500, 600"
+function mid(end){
 var start = "685,336 685,222";
+var x = end.split(",").slice(0,1);
+var y = start.split(",").slice(2);
+var coor = " " + x + ", " + y + " "; 
+return start + " " + coor + " " + end;
+}
 
-
-function first() {
-  document.getElementsByTagName("polyline")[0].setAttribute("points", start +" 755,222 " + end1);
+function a() {
+  var end = "755, 140";
+  document.getElementsByTagName("polyline")[0].setAttribute("points", mid("755, 140"));
  
 }
 
-function second() {
-    document.getElementsByTagName("polyline")[0].setAttribute("points", y); 
+function b() {
+    document.getElementsByTagName("polyline")[0].setAttribute("points", mid("763, 140")); 
 }
+
+function c() {
+    document.getElementsByTagName("polyline")[0].setAttribute("points", mid("789, 140")); 
+}
+
+function d() {
+    document.getElementsByTagName("polyline")[0].setAttribute("points", mid("797, 140")); 
+}
+
+
 
 </script>
 
@@ -342,8 +356,12 @@ function second() {
 
 <div class = "button">
 
-<button class = "btn" onclick="first()">First</button>
-<button class = "btn" onclick="second()">Second</button>
+<button class = "btn" onclick="a()">First</button>
+<button class = "btn" onclick="b()">Second</button>
+<button class = "btn" onclick="c()">Third</button>
+<button class = "btn" onclick="d()">Fourth</button>
+
+
 
 </div>
 
