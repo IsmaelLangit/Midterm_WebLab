@@ -1,52 +1,36 @@
 if (category == "LiR" && num >= 690 && num <= 700) {
-	mid("681, 142");
-  color("#81649C"); //viole
+	mid("348, 234");
+  	color("#4F82B7"); //blue
 	
-} else if (category == "AS" && num >= 690 && num <= 700){
-	
-} eles if (category == "AS" && num >= 690 && num <= 700) {
+} else if (category == "HGR" && num >= 912 && num <= 994) {
+	mid("340, 234");
+  	color("#81649C"); //violet
 
-function c1() {
-  mid("348, 234");
-  color("#4F82B7"); //blue
-}
-
-function c2() {
-  mid("340, 234");
-  color("#81649C"); //violet
-}
-
-function c3() {
+} else if (category == "Hg" && num >= 973 && num <= 998) {
   mid("318, 232");
   color("#4F82B7"); //blue
-}
 
-function c4() {
+} else if (category == "Hg" && num >= 956 && num <= 973) {
   mid("308, 232");
   color("#81649C"); //violet
-}
 
-function c5() {
+} else if (category == "Hg" && num >= 943 && num <= 956) {
   mid("284, 232");
   color("#4F82B7"); //blue
-}
 
-function c6() {
+} else if (category == "Hg" && num >= 940 && num <= 943) {
   mid("274, 232");
   color("#81649C"); //violet
-}
 
-function c7() {
+} else if (category == "Hg" && num >= 930 && num <= 940) {
   mid("250, 232");
   color("#4F82B7"); //blue
-}
 
-function c8() {
+} else if (category == "Hg" && num >= 910 && num <= 930) {
   mid("240, 232");
   color("#81649C"); //violet
-}
 
-function c9() {
+} else if (category == "Hg" && num >= 900 && num <= 910) {
   mid("216, 232");
   color("#4F82B7"); //blue
 }
