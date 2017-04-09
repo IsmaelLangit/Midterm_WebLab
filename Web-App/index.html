@@ -59,11 +59,9 @@
 		<form id="form1">
 			<span id ="section-span">Section:</span>:
 			<select id="mySelect">
-			  <option value="Ar-Pr">Ar-Pr</option>	
-			  <option value="AS">AS</option>
-			  <option value="ASR">ASR</option>	
-			  <option value="C">C</option>	
-			  <option value="D">D</option>	
+			  <option value="AS">AS</option>	
+			  <option value="As-Pr">As-Pr</option>	
+			  <option value="ASR">ASR</option>		
 			  <option value="F">F</option>	
 			  <option value="FIC">FIC</option>	
 			  <option value="G">G</option>	
@@ -103,12 +101,18 @@
 				document.getElementsByTagName("input")[0].setAttribute("max", max); 
 			}
 
-			if (category == "Ar-Pr") {
-				range("1", "5");
-		
-			} else {
+			if (category == "AS") {
+				range("600", "796");
+			} else if (category == "As-Pr") {
+				range("610", "618");
+			} else if (category == "ASR") {
+				range("610", "618");
+	
+			}else{
 				valid = true;
-			}
+			}		
+
+
 
 			</script>
 
