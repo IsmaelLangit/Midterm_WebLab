@@ -5,7 +5,7 @@
 <style>
 
 .picture svg {
-	width: 100%;
+  width: 100%;
   height: 80vh;
 }
 
@@ -15,8 +15,8 @@
 }
 
 * {
-	margin : 0;
-	padding: 0;
+  margin : 0;
+  padding: 0;
 
 }
 
@@ -295,7 +295,7 @@
 </g>
 
 <script>
-function mid(end){
+function SetMid(end){
 var start = "605,335 605,208";
 var x = end.split(",").slice(0,1);
 var y = start.split(",").slice(2);
@@ -304,19 +304,21 @@ var comb = start + " " + coor + " " + end;
 document.getElementsByTagName("polyline")[0].setAttribute("points", comb)
 }
 
-
-function color(c) {
+function Setcolor(c) {
   document.getElementsByTagName("polyline")[0].setAttribute("stroke", c);
 }
 
+var mid = localStorage.getItem("mid");
+var color = localStorage.getItem("color");
+
 function c1() {
-  mid("348, 234");
-  color("#4F82B7"); //blue
+  SetMid(mid);
+  Setcolor(color); //blue
 }
 
 function c2() {
-  mid("340, 234");
-  color("#81649C"); //violet
+  SetMid("340, 234");
+  Setcolor("#81649C"); //violet
 }
 
 //Please do not commit, put it on your textfiles, thanks hahaha
@@ -325,7 +327,7 @@ function c2() {
 </script>
 
   <polyline
-  	class = "route"
+    class = "route"
      fill="none"
      stroke="#0074d9"
      stroke-width="5"

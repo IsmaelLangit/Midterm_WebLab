@@ -92,7 +92,6 @@
 			<script>
 			var category = document.getElementById("mySelect").value;
 
-			var valid = "";
 
 			function range (min, max){
 				document.getElementsByTagName("input")[0].setAttribute("min", min); 
@@ -143,11 +142,7 @@
 				range("340", "378");
 			}else if (category == "SS-PR") {
 				range("300", "352");
-			}else{
-				valid = false;
-			}		
-
-
+			}
 
 			</script>
 
@@ -161,12 +156,21 @@
 
 		<script type="text/javascript">
 		function myFunction() {
-		    var category = document.getElementById("mySelect").value;
+			var category = document.getElementById("mySelect").value;
 		    var num =document.getElementById("text-search").value;
 		 	
+		 	if(num != ""){
+				var mid = "";
+				var color = "";
 
-		 	if(num != "" && valid != false){
-		 		document.getElementById("output").innerHTML = category + "-" + num; 
+			 	if (category == "AS" && num >= 400 && num <= 700) {
+				mid ="340, 234";
+	  			color = "#81649C"; //violet
+				} 
+
+		 		document.getElementById("output").innerHTML = "You've search for : " + category + "-" + num;
+		 		localStorage.setItem("mid", mid); 
+		 		localStorage.setItem("color", color); 
 		 	}
 		}
 		</script>
