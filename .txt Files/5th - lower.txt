@@ -1,0 +1,59 @@
+if (category == "GR" && num >= 264 && num <= 294){
+	mid("732, 238");
+  	color("#81649C"); //violet
+	
+} else if (category == "Re" && num >= 264 && num <= 294){
+	mid("741, 238");
+  	color("#4F82B7"); //blue
+	
+} else if (category == "GR" && num == 1998) {
+    mid("759, 238");
+  	color("#81649C"); //violet
+    
+} else if (category == "PPR" && num == 230) {
+	mid("768, 238");
+  	color("#4F82B7"); //blue
+    
+} else if (category == "PPR" && num >= 153 && num <= 343) {
+	mid("789, 238");
+  	color("#81649C"); //violet
+    
+} else if (category == "SS" && num >= 153 && num <= 343) {
+	mid("798, 238");
+  	color("#4F82B7"); //blue
+    
+} else if (category == "SS" && num == 343) {
+	mid("819, 238");
+  	color("#81649C"); //violet
+    
+} else if (category == "G" && num >= 1 && num <= 294) {
+	mid("856, 238");
+  	color("#4F82B7"); //blue
+    
+} else if (category == "G" && num >= 295 && num <= 393) {
+	mid("876, 238");
+  	color("#81649C"); //violet
+    
+} else if (category == "G" && num >= 230 && num <= 368) {
+	mid("915, 238");
+  	color("#4F82B7"); //blue
+    
+} else if (category == "PP" && num >= 156 && num <= 189) {
+	mid("934, 238");
+  	color("#81649C"); //violet
+    
+} else if (category == "PP" && num >= 99 && num <= 155) {
+	mid("970, 238");
+  	color("#4F82B7"); //blue
+    
+} else if (category == "PP" && num >= 190 && num <= 232) {
+	mid("989, 238");
+  	color("#81649C"); //violet
+    
+} else if (category == "PP" && num >= 1 && num <= 99) {
+	mid("1022, 238");
+  	color("#4F82B7"); //blue
+    
+} else if (category == "PP" && num >= 233 && num <= 399) {
+	mid("1038, 238");
+  	color("#81649C"); //violet
