@@ -28,7 +28,7 @@ function c4() {
 
 function c5() {
   mid("284, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c6() {
@@ -38,7 +38,7 @@ function c6() {
 
 function c7() {
   mid("250, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c8() {
@@ -48,7 +48,7 @@ function c8() {
 
 function c9() {
   mid("216, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c10() {
@@ -58,7 +58,7 @@ function c10() {
 
 function c11() {
   mid("184, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c12() {
@@ -68,7 +68,7 @@ function c12() {
 
 function c13() {
   mid("152, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c14() {
@@ -78,7 +78,7 @@ function c14() {
 
 function c15() {
   mid("122, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c16() {
@@ -88,7 +88,7 @@ function c16() {
 
 function c17() {
   mid("92, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c18() {
@@ -98,7 +98,7 @@ function c18() {
 
 function c19() {
   mid("63, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c20() {
@@ -108,7 +108,7 @@ function c20() {
 
 function c21() {
   mid("33, 232");
-  color("#81649C"); //blue
+  color("#4F82B7"); //blue
 }
 
 function c22() {
