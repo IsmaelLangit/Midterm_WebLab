@@ -86,18 +86,31 @@
 
 		
 
-		<form id="form2">
+		<form id="form2" onsubmit="return false">
 			<span id ="ddc-span">DDC Number : </span> 
 			<input type="number" id="text-search" step=any required>
-			<script>
+
+			<button id = "button-home" type="submit" onclick="myFunction()" formtarget="_self">FIND</button>
+		</form>
+
+
+		<div class = "output">
+		<p id="output"></p>
+		</div>
+
+		<script type="text/javascript">
+		function myFunction() {
 			var category = document.getElementById("mySelect").value;
+			var element = document.getElementById("text-search");
+		    var num =document.getElementById("text-search").value;
 
-
-			function range (min, max){
-				document.getElementsByTagName("input")[0].setAttribute("min", min); 
-				document.getElementsByTagName("input")[0].setAttribute("max", max); 
+		    function range (min, max){
+				element.setAttribute("min", min);
+				element.setAttribute("max", max); 
 			}
 
+			//Setting min and max attribute
+			
 			if (category == "AS") {
 				range("600", "796");
 			} else if (category == "As-Pr") {
@@ -142,35 +155,27 @@
 				range("340", "378");
 			}else if (category == "SS-PR") {
 				range("300", "352");
-			}
-
-			</script>
-
-			<button id = "button-home" type="submit" onclick="myFunction()">FIND</button>
-		</form>
-
-
-		<div class = "output">
-		<p id="output"></p>
-		</div>
-
-		<script type="text/javascript">
-		function myFunction() {
-			var category = document.getElementById("mySelect").value;
-		    var num =document.getElementById("text-search").value;
+			} 
 		 	
-		 	if(num != ""){
+		 	if(num != "" ){
 				var mid = "";
 				var color = "";
+				var valid = null;
 
-			 	if (category == "AS" && num >= 400 && num <= 700) {
-				mid ="340, 234";
-	  			color = "#81649C"; //violet
-				} 
+			 	if (category == "AS" && num >= 600 && num <= 796) {
+					mid ="340, 234";
+		  			color = "#81649C"; //violet
+		  			valid = true;
+				} else {
+					valid = false;
+					document.getElementById("output").innerHTML = "";
+				}
 
-		 		document.getElementById("output").innerHTML = "You've search for : " + category + "-" + num;
+				if (valid == true) {
+				document.getElementById("output").innerHTML = "You've search for : " + category + "-" + num;
 		 		localStorage.setItem("mid", mid); 
-		 		localStorage.setItem("color", color); 
+		 		localStorage.setItem("color", color);  
+		 		}
 		 	}
 		}
 		</script>
@@ -180,7 +185,7 @@
 		<img id = "callnum" src  ="images/info/callnum.png" alt="call number">
 	</div>
 
-	<a href="#contact" ><img id = "arrow3" class = "arrow" src  ="images/icon/down1.png" alt="logo" onmouseover="this.src='images/icon/down2.png'" onmouseout="this.src = 'images/icon/down1.png'"></a>
+	<a href="#contact" ><img id = "arrow3" class = "arrow" src  ="images/icon/down1.png" alt="logo" onmouseover="this.src='images/icon/down2.png'" onmouseout="this.src = 'images/icon/down1.png'"/></a>
 </div>
 
 <div class="content contact-page" id="contact">
