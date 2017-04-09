@@ -1,0 +1,8 @@
+if (category == "AS" && num >= 690 && num <= 700) {
+	mid("681, 142");
+  color("#81649C"); //viole
+	
+} else if (category == "AS" && num >= 690 && num <= 700){
+	
+} eles if (category == "AS" && num >= 690 && num <= 700) {
+	
