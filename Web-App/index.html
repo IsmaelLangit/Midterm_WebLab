@@ -93,7 +93,7 @@
 			<script>
 			var category = document.getElementById("mySelect").value;
 
-			var valid = false;
+			var valid = "";
 
 			function range (min, max){
 				document.getElementsByTagName("input")[0].setAttribute("min", min); 
@@ -129,7 +129,7 @@
 			} else if (category == "LiR") {
 				range("803", "860");
 			}else{
-				valid = true;
+				valid = false;
 			}		
 
 
