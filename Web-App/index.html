@@ -88,9 +88,26 @@
 			</select>
 		</form>
 
+		
+
 		<form id="form2">
 			<span id ="ddc-span">DDC Number : </span> 
 			<input type="number" id="text-search" step=any required>
+			<script>
+			var category = document.getElementById("mySelect").value;
+
+			var valid = false;
+
+			if (category == "Ar-Pr") {
+				document.getElementsByTagName("input")[0].setAttribute("min", "1"); 
+				document.getElementsByTagName("input")[0].setAttribute("max", "5"); 
+		
+			} else {
+				valid = true;
+			}
+
+			</script>
+
 			<button id = "button-home" type="submit" onclick="myFunction()">FIND</button>
 		</form>
 
@@ -105,7 +122,7 @@
 		    var num =document.getElementById("text-search").value;
 		 	
 
-		 	if(num != ""){
+		 	if(num != "" && valid != false){
 		 		document.getElementById("output").innerHTML = category + "-" + num; 
 		 	}
 		}
