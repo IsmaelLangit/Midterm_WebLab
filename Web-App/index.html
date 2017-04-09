@@ -69,12 +69,10 @@
 			  <option value="GR">GR</option>	
 			  <option value="Hg">Hg</option>	
 			  <option value="HgR">HgR</option>	
-			  <option value="J">J</option>	
 			  <option value="La">La</option>	
 			  <option value="La-PR">La-PR</option>	
 			  <option value="Li">Li</option>	
 			  <option value="LiR">LiR</option>	
-			  <option value="N">N</option>	
 			  <option value="PP">PP</option>	
 			  <option value="PS">PS</option>	
 			  <option value="PS-PR">PS-PR</option>	
@@ -94,7 +92,7 @@
 			<script>
 			var category = document.getElementById("mySelect").value;
 
-			var valid = false;
+			var valid = "";
 
 			function range (min, max){
 				document.getElementsByTagName("input")[0].setAttribute("min", min); 
@@ -107,9 +105,46 @@
 				range("610", "618");
 			} else if (category == "ASR") {
 				range("610", "618");
-	
+			} else if (category == "F") {
+				range("001", "959");
+			} else if (category == "FIC") {
+				range("233", "9940");
+			} else if (category == "G") {
+				range("20", "393");
+			} else if (category == "GN") {
+				range("658", "9684");
+			} else if (category == "GR") {
+				range("1998", "1998");
+			} else if (category == "Hg") {
+				range("900", "998");
+			} else if (category == "HgR") {
+				range("903", "912");
+			} else if (category == "La") {
+				range("410", "495");
+			} else if (category == "La-PR") {
+				range("410", "416");
+			} else if (category == "Li") {
+				range("808", "897");
+			} else if (category == "LiR") {
+				range("803", "860");
+			}else if (category == "PP") {
+				range("100", "399");
+			}else if (category == "PS") {
+				range("505", "599");
+			}else if (category == "PS-PR") {
+				range("543", "595");
+			}else if (category == "PSR") {
+				range("500", "599");
+			}else if (category == "Re") {
+				range("210", "305");
+			}else if (category == "SS") {
+				range("053", "738");
+			}else if (category == "SSG-PR") {
+				range("340", "378");
+			}else if (category == "SS-PR") {
+				range("300", "352");
 			}else{
-				valid = true;
+				valid = false;
 			}		
 
 
