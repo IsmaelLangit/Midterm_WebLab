@@ -1,3 +1,11 @@
+if (category == "LiR" && num >= 690 && num <= 700) {
+	mid("681, 142");
+  color("#81649C"); //viole
+	
+} else if (category == "AS" && num >= 690 && num <= 700){
+	
+} eles if (category == "AS" && num >= 690 && num <= 700) {
+
 function c1() {
   mid("348, 234");
   color("#4F82B7"); //blue
@@ -10,7 +18,7 @@ function c2() {
 
 function c3() {
   mid("318, 232");
-  color("#81649C"); //violet
+  color("#4F82B7"); //blue
 }
 
 function c4() {
@@ -20,7 +28,7 @@ function c4() {
 
 function c5() {
   mid("284, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c6() {
@@ -30,7 +38,7 @@ function c6() {
 
 function c7() {
   mid("250, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c8() {
@@ -40,7 +48,7 @@ function c8() {
 
 function c9() {
   mid("216, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c10() {
@@ -50,7 +58,7 @@ function c10() {
 
 function c11() {
   mid("184, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c12() {
@@ -60,7 +68,7 @@ function c12() {
 
 function c13() {
   mid("152, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c14() {
@@ -70,7 +78,7 @@ function c14() {
 
 function c15() {
   mid("122, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c16() {
@@ -80,7 +88,7 @@ function c16() {
 
 function c17() {
   mid("92, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c18() {
@@ -90,7 +98,7 @@ function c18() {
 
 function c19() {
   mid("63, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c20() {
@@ -100,7 +108,7 @@ function c20() {
 
 function c21() {
   mid("33, 232");
-  color("#81649C"); //violet
+  color("#81649C"); //blue
 }
 
 function c22() {
