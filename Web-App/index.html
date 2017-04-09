@@ -98,9 +98,13 @@
 
 			var valid = false;
 
+			function range (min, max){
+				document.getElementsByTagName("input")[0].setAttribute("min", min); 
+				document.getElementsByTagName("input")[0].setAttribute("max", max); 
+			}
+
 			if (category == "Ar-Pr") {
-				document.getElementsByTagName("input")[0].setAttribute("min", "1"); 
-				document.getElementsByTagName("input")[0].setAttribute("max", "5"); 
+				range("1", "5");
 		
 			} else {
 				valid = true;
