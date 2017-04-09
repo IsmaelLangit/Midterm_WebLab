@@ -322,14 +322,17 @@ var coor = " " + x + ", " + y + " ";
 return start + " " + coor + " " + end;
 }
 
+
+
 function a() {
-  var end = "755, 140";
   document.getElementsByTagName("polyline")[0].setAttribute("points", mid("755, 140"));
+  document.getElementsByTagName("polyline")[0].setAttribute("stroke", "#81649C");
  
 }
 
 function b() {
     document.getElementsByTagName("polyline")[0].setAttribute("points", mid("763, 140")); 
+    document.getElementsByTagName("polyline")[0].setAttribute("stroke", "#4F82B7");
 }
 
 function c() {
@@ -349,6 +352,7 @@ function d() {
      fill="none"
      stroke="#0074d9"
      stroke-width="5"
+
    />
 </svg>
 
