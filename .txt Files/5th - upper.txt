@@ -119,3 +119,103 @@ if (category == "SS" && num >= 373 && num <= 374) {
 	color ="#4F82B7"; //blue
 	valid = true;
     floor = 5;
+} else if (category == "SS" && num >= 346 && num <= 346) {
+	mid = "793, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 345 && num <= 346) {
+	mid = "802, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 343 && num <= 345) {
+	mid = "821, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS/F" && num >= 53 && num <= 1031) {
+	mid = "830, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS/G" && num >= 340 && num <= 342) {
+	mid = "850, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS/M" && num >= 338 && num <= 338) {
+	mid = "859, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS/B-D" && num >= 330 && num <= 336) {
+	mid = "880, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS/C" && num >= 328 && num <= 332) {
+	mid = "889, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 323 && num <= 328) {
+	mid = "911, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS/F" && num >= 328 && num <= 330) {
+	mid = "920, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 320 && num <= 323) {
+	mid = "939, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS Ei" && num >= 305 && num <= 307) {
+	mid = "948, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS/T" && num >= 301 && num <= 302) {
+	mid = "968, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 302 && num <= 305) {
+	mid = "977, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 300 && num < 301) {
+	mid = "995, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 282 && num <= 299) {
+	mid = "1004, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 268 && num <= 270) {
+	mid = "1023, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 261 && num <= 266) {
+	mid = "1032, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 253 && num <= 261) {
+	mid = "104, 141";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "Re" && num >= 242 && num <= 248) {
+	mid = "1057, 141";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
