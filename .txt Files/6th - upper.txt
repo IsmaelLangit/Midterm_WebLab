@@ -74,84 +74,86 @@ if(category == "ASR" && num >= 600 && num <= 611){
 
 if(category == "AS"){
   mid("394, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS"){
   mid("385, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AR"){
   mid("366, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AR"){
   mid("356, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 619 && num < 620){
   mid("338, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 620 && num <= 621){
   mid("328, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 620 && num < 621){
   mid("311, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 620 && num < 621){
   mid("302, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 620 && num < 621){
   mid("283, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 620 && num < 621){
   mid("273, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 620 && num < 621){
   mid("255, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 621 && num <= 624){
   mid("245, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 623 && num < 624){
   mid("227, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 624 && num <= 628){
   mid("217, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 628 && num <= 633){
   mid("200, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 633 && num <= 658){
   mid("190, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 657 && num < 658){
   mid("171, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 657 && num < 658){
   mid("161, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 658 && num <= 660)
   mid("143, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 660 && num <= 671){
   mid("133, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 671 && num <= 693){
   mid("114, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 693 && num <= 719{
   mid("104, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 720 && num <= 725){
   mid("86, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 725 && num <= 780){
   mid("76, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 780 && num <= 796){
   mid("59, 140");
-
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 796 && num <= 799){
   mid("49, 140");
-
+  color("#81649C"); //violet
 }else if(category == "AS" && num >= 621 && num <= 628)
   mid("31, 140");
+  color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 628 && num <= 660){
   mid("22, 140");
+  color("#81649C"); //violet
 }
