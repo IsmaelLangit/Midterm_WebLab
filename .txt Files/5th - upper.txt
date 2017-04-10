@@ -1,0 +1,26 @@
+if (category == "SS" && num >= 373 && num <= 374) {
+	mid = "137, 143";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+				          
+} else if (category == "SS" && num >= 370 && num <= 374) {
+	mid = "146, 143";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 360 && num <= 370) {
+	mid = "170, 143";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 378 && num <= 388) {
+	mid = "179, 143";
+	color ="#4F82B7"; //blue
+	valid = true;
+    floor = 5;
+} else if (category == "SS" && num >= 372 && num <= 388) {
+	mid = "201, 143";
+	color ="#81649C"; //violet
+	valid = true;
+    floor = 5;
