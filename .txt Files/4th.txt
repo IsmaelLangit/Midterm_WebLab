@@ -1,0 +1,82 @@
+4th floor Filipinia Reference
+
+	Cordillera Books
+
+	if (category == "FR" && num >= 305 && num <= 959) {
+	mid("0, 0");
+  	color("#4F82B7"); //blue
+
+	} else if (category == "F" && num == 0) {
+	mid("0, 0");
+  	color("#81649C"); //violet
+
+  	} else if (category == "FR" && num >= 373 && num <= 899) {
+	mid("0, 0");
+  	color("#4F82B7"); //blue
+
+	} else if (category == "F" && num >= 359 && num <= 959) {
+	mid("0, 0");
+  	color("#81649C"); //violet
+
+  	} else if (category == "FR" && num >= 323 && num <= 959) {
+	mid("0, 0");
+  	color("#4F82B7"); //blue
+
+  	} else if (category == "FR" && num == 959) {
+	mid("0, 0");
+  	color("#81649C"); //violet
+
+  	} else if (category == "F" && num >= 759 && num <= 959) {
+	mid("0, 0");
+	color("#4F82B7"); //blue
+
+  	} else if (category == "F" && num >= 499 && num <= 759) {
+	mid("0, 0");
+  	color("#81649C"); //violet
+
+   	} else if (category == "F" && num >= 315 && num <= 499) {
+	mid("0, 0");
+	color("#4F82B7"); //blue
+
+   	} else if (category == "F" && num >= 1 && num <= 315) {
+	mid("0, 0");
+  	color("#81649C"); //violet
+
+   	} else if (category == "FR" && num == 0) {
+	mid("0, 0");
+   	color("#4F82B7"); //blue
+
+    } else if (category == "FR" && num >= 305 && num <= 959) {
+	mid("0, 0");
+	color("#81649C"); //violet
+	}
+
+   	Filipiniana General Collection
+
+   	if (category == "F" && num >= 551 && num <= 899) {
+	mid("0, 0");
+  	color("#4F82B7"); //blue
+
+  	} else if (category == "F" && num >= 551 && num <= 899) {
+	mid("0, 0");
+	color("#81649C"); //violet
+
+	} else if (category == "F" && num >= 899 && num <= 959) {
+	mid("0, 0");
+  	color("#4F82B7"); //blue
+
+  	} else if (category == "F" && num >= 899 && num <= 959) {
+	mid("0, 0");
+	color("#81649C"); //violet
+	}
+
+	Rizal Books
+
+	if (category == "F" && num == 959) {
+	mid("0, 0");
+	color("#81649C"); //violet
+
+	} else if (category == "F" && num == 959) {
+	mid("0, 0");
+	color("#81649C"); //violet
+	}
