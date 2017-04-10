@@ -63,13 +63,56 @@
 }
 
 </style>
+
+   <script type="text/javascript">
+
+
+window.onload = function() {
+
+  var sq = {};
+  sq.e = document.getElementById("squirrel");
+  if (sq.e.naturalWidth) {
+    sq.nw = sq.e.naturalWidth;
+  }
+  else {
+    var i = new Image();
+    i.src = sq.e.src;
+    sq.nw = i.width;
+  }
+  sq.zoom = 30;
+  
+  if (sq.e.addEventListener) {
+    sq.e.addEventListener("mousewheel", MouseWheelHandler, false);
+    sq.e.addEventListener("DOMMouseScroll", MouseWheelHandler, false);
+  }
+  else sq.e.attachEvent("onmousewheel", MouseWheelHandler);
+  
+  function MouseWheelHandler(e) {
+
+    // cross-browser wheel delta
+    var e = window.event || e;
+    var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+    sq.e.style.width = Math.max(sq.zoom, Math.min(sq.nw, sq.e.width + (sq.zoom * delta))) + "px";
+
+    return false;
+  }
+
+}
+
+
+
+</script>
+
 <body>
 
 <div class = "picture">
 
+
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 1073 378" enable-background="new 0 0 1073 378" xml:space="preserve">
+   viewBox="0 0 1073 378" enable-background="new 0 0 1073 378" xml:space="preserve" id ="squirrel">
+
+
 <g id="back1">
   <line fill="none" stroke="#B7DDE8" stroke-width="1000" stroke-miterlimit="10" x1="501" y1="376.5" x2="501" y2="0"/>
   <line fill="none" stroke="#B7DDE8" stroke-width="1000" stroke-miterlimit="10" x1="572" y1="376.5" x2="572" y2="0"/>
