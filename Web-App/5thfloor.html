@@ -331,39 +331,29 @@
 </g>
 
 <script>
-function mid(end){
-var start = "605,335 605,208";
-var x = end.split(",").slice(0,1);
-var y = start.split(",").slice(2);
-var coor = " " + x + ", " + y + " "; 
-var comb = start + " " + coor + " " + end;
-document.getElementsByTagName("polyline")[0].setAttribute("points", comb)
-}
+  function SetMid(end){
+    var start = "601, 338 601, 212";
+    var x = end.split(",").slice(0,1);
+    var y = start.split(",").slice(2);
+    var coor = " " + x + ", " + y + " "; 
+    var comb = start + " " + coor + " " + end;
+    document.getElementsByTagName("polyline")[0].setAttribute("points", comb)
+  }
 
-var mid = localStorage.getItem("mid");
-var color = localStorage.getItem("color");
+  function Setcolor(c) {
+    document.getElementsByTagName("polyline")[0].setAttribute("stroke", c);
+  }
 
-function a() {
-  mid(mid);
-  color(color);
- 
-}
-
-function b() {
-    document.getElementsByTagName("polyline")[0].setAttribute("points", mid("763, 140")); 
-    document.getElementsByTagName("polyline")[0].setAttribute("stroke", "#4F82B7");
-}
-
-function c() {
-    document.getElementsByTagName("polyline")[0].setAttribute("points", mid("789, 140")); 
-}
-
-function d() {
-    document.getElementsByTagName("polyline")[0].setAttribute("points", mid("797, 140")); 
-}
+  var mid = localStorage.getItem("mid");
+  var color = localStorage.getItem("color");
 
 
 
+  function result() {
+    SetMid(mid);
+    Setcolor(color); //blue
+  }
+   
 </script>
 
   <polyline
@@ -378,14 +368,7 @@ function d() {
 </div>
 
 <div class = "button">
-
-<button class = "btn" onclick="a()">First</button>
-<button class = "btn" onclick="b()">Second</button>
-<button class = "btn" onclick="c()">Third</button>
-<button class = "btn" onclick="d()">Fourth</button>
-
-
-
+<button class = "btn" onclick="result()">RESULT</button>
 </div>
 
 
