@@ -69,3 +69,61 @@ if(category == "ASR" && num >= 600 && num <= 611){
   mid="1040, 140";
   color="#4F82B7"; //blue
 }
+
+//upper left corner
+
+if(category == "AS"){
+}else if(category == "AS"){
+
+}else if(category == "AR"){
+
+}else if(category == "AR"){
+
+}else if(category == "AS" && num >= 619 && num < 620){
+ 
+}else if(category == "AS" && num >= 620 && num <= 621){
+
+}else if(category == "AS" && num >= 620 && num < 621){
+
+}else if(category == "AS" && num >= 620 && num < 621){
+
+}else if(category == "AS" && num >= 620 && num < 621){
+
+}else if(category == "AS" && num >= 620 && num < 621){
+
+}else if(category == "AS" && num >= 620 && num < 621){
+
+}else if(category == "AS" && num >= 621 && num <= 624){
+
+}else if(category == "AS" && num >= 623 && num < 624){
+
+}else if(category == "AS" && num >= 624 && num <= 628){
+
+}else if(category == "AS" && num >= 628 && num <= 633){
+
+}else if(category == "AS" && num >= 633 && num <= 658){
+
+}else if(category == "AS" && num >= 657 && num < 658){
+
+}else if(category == "AS" && num >= 657 && num < 658){
+
+}else if(category == "AS" && num >= 658 && num <= 660)
+
+}else if(category == "AS" && num >= 660 && num <= 671){
+}else if(category == "AS" && num >= 671 && num <= 693){
+
+}else if(category == "AS" && num >= 693 && num <= 719{
+
+}else if(category == "AS" && num >= 720 && num <= 725){
+
+}else if(category == "AS" && num >= 725 && num <= 780){
+
+}else if(category == "AS" && num >= 780 && num <= 796){
+
+}else if(category == "AS" && num >= 796 && num <= 799){
+
+}else if(category == "AS" && num >= 621 && num <= 628)
+
+}else if(category == "AS" && num >= 628 && num <= 660){
+
+}

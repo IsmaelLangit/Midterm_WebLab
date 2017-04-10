@@ -378,33 +378,141 @@ window.onload = function() {
   <line fill="#231F20" stroke="#231F20" stroke-width="1.7" stroke-miterlimit="10" x1="389" y1="145" x2="389" y2="19.7"/>
 </g>
 <<<<<<< HEAD
-
-
-
+  
 <script>
-  function SetMid(end){
-    var start = "601, 338 601, 212";
-    var x = end.split(",").slice(0,1);
-    var y = start.split(",").slice(2);
-    var coor = " " + x + ", " + y + " "; 
-    var comb = start + " " + coor + " " + end;
-    document.getElementsByTagName("polyline")[0].setAttribute("points", comb)
-  }
-
-  function Setcolor(c) {
-    document.getElementsByTagName("polyline")[0].setAttribute("stroke", c);
-  }
-
-  var mid = localStorage.getItem("mid");
-  var color = localStorage.getItem("color");
+function mid(end){
+var start = "605,336 605, 209";
+var x = end.split(",").slice(0,1);
+var y = start.split(",").slice(2);
+var coor = " " + x + ", " + y + "."; 
+return start + " " + coor + " " + end;
 
 
+}
 
-  function result() {
-    SetMid(mid);
-    Setcolor(color); //blue
-  }
-   
+function a1() {
+  document.getElementsByTagName("polyline")[0].setAttribute("points", mid("392, 146"));
+    color("#4F82B7"); //blue
+}
+
+function a2() {
+  mid("375, 140");
+  color("#81649C"); //violet
+}
+    
+function a3() {
+  mid("349, 140");
+  color("#4F82B7"); //blue
+}
+
+function a4() {
+  mid("341, 140");
+  color("#81649C"); //violet
+}
+ function a5() {
+  mid("318, 140");
+  color("#4F82B7"); //blue
+}
+
+function a6() {
+  mid("309, 140");
+  color("#81649C"); //violet
+}
+  function a7() {
+  mid("284, 140");
+  color("#4F82B7"); //blue
+}
+
+function a8() {
+  mid("276, 140");
+  color("#81649C"); //violet
+}
+ function a9() {
+  mid("250, 140");
+  color("#4F82B7"); //blue
+}
+
+function a10() {
+  mid("242, 140");
+  color("#81649C"); //violet
+}
+  
+ function a11() {
+  mid("215, 140");
+  color("#4F82B7"); //blue
+}
+
+function a12() {
+  mid("208, 140");
+  color("#81649C"); //violet
+}
+  
+ function a13() {
+  mid("183, 140");
+  color("#4F82B7"); //blue
+}
+
+function a14() {
+  mid("175, 140");
+  color("#81649C"); //violet
+}
+  
+ function a15() {
+  mid("152, 140");
+  color("#4F82B7"); //blue
+}
+
+function a16() {
+  mid("144, 140");
+  color("#81649C"); //violet
+}
+
+ function a17() {
+  mid("122, 140");
+  color("#4F82B7"); //blue
+}
+
+function a18() {
+  mid("114, 140");
+  color("#81649C"); //violet
+}
+function a19() {
+  mid("91, 140");
+  color("#4F82B7"); //blue
+}
+
+function a20() {
+  mid("83, 140");
+  color("#81649C"); //violet
+}
+function a21() {
+  mid("63, 140");
+  color("#4F82B7"); //blue
+}
+
+function a22() {
+  mid("55, 140");
+  color("#81649C"); //violet
+}
+function a23() {
+  mid("33, 140");
+  color("#4F82B7"); //blue
+}
+
+function a24() {
+  mid("24, 140");
+  color("#81649C"); //violet
+}
+function a25() {
+  mid("6, 140");
+  color("#4F82B7"); //blue
+}
+
+    
+    
+//Please do not commit, put it on your textfiles, thanks hahaha
+
+    
 </script>
 
   <polyline
@@ -414,24 +522,46 @@ window.onload = function() {
      stroke-width="5"
 
    />
-=======
->>>>>>> dcd850d3a81fcd2fbfa8be05630f25eff5801f46
 </svg>
-
 
 </div>
 
 <div class = "button">
 
-<button class = "btn" onclick="result()">RESULT</button>
+<button class = "btn" onclick="a1()">first</button>
+<button class = "btn" onclick="a2()">second</button>
+<button class = "btn" onclick="a3()">third</button>
+<button class = "btn" onclick="a4()">fourth</button>
+<button class = "btn" onclick="a5()">fifth</button>
+<button class = "btn" onclick="a6()">sixth</button>
+<button class = "btn" onclick="a7()">seventh</button>
+<button class = "btn" onclick="a8()">eighth</button>
+<button class = "btn" onclick="a9()">ninth</button>
+<button class = "btn" onclick="a10()">tenth</button>
+<button class = "btn" onclick="a11()">eleventh</button>
+<button class = "btn" onclick="a12()">twelfth</button>
+<button class = "btn" onclick="a13()">thirteenth</button>
+<button class = "btn" onclick="a14()">fourteenth</button>
+<button class ="btn"
+onclick="a15()">fifteenth</button>
+<button class = "btn" onclick="a16()">sixteenth</button>
+<button class = "btn" onclick="a17()">seventeenth</button>
+<button class = "btn" onclick="a18()">eighteenth</button>
+<button class = "btn" onclick="a19()">nineteenth</button>
+<button class = "btn" onclick="a20()">twentieth</button>
+<button class = "btn" onclick="a21()">twenty-first</button>
+<button class = "btn" onclick="a22()">twenty-second</button>
+<button class = "btn" onclick="a23()">twenty-third</button>
+<button class = "btn" onclick="a24()">twenty-fourth</button>
+<button class = "btn" onclick="a25()">twenty-fifth</button>
+
+</svg>
 
 </div>
 
-<footer>
-    <a href="index.html" class="scroll" data-speed="250"><img src="images/icon/nav-icon.png"></a>
-    <p>Copyight 2017</p>
-</footer>
+
 
 </body>
 </html>
+
 
