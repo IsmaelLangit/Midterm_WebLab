@@ -1,0 +1,113 @@
+//upper (right)
+
+function b1() {
+  mid("678, 140");
+  color("#81649C"); //violet
+}
+
+function b2() {
+  mid("686, 140");
+  color("#4F82B7"); //blue
+}
+    
+function b3() {
+  mid("710, 140");
+  color("#81649C"); //violet
+}
+
+function b4() {
+  mid("720, 140");
+  color("#4F82B7"); //blue
+}
+  function b5() {
+  mid("749, 140");
+  color("#81649C"); //violet
+}
+
+function b6() {
+  mid("757, 140");
+  color("#4F82B7"); //blue
+}
+  function b7() {
+  mid("784, 140");
+  color("#81649C"); //violet
+}
+
+function b8() {
+  mid("792, 140");
+  color("#4F82B7"); //blue
+}
+  function b9() {
+  mid("818, 140");
+  color("#81649C"); //violet
+}
+
+function b10() {
+  mid("826, 140");
+  color("#4F82B7"); //blue
+}
+  
+  function b11() {
+  mid("854, 140");
+  color("#81649C"); //violet
+}
+
+function b12() {
+  mid("864, 140");
+  color("#4F82B7"); //blue
+}
+  
+  function b13() {
+  mid("888, 140");
+  color("#81649C"); //violet
+}
+
+function b14() {
+  mid("897, 140");
+  color("#4F82B7"); //blue
+}
+  
+  function b15() {
+  mid("925, 140");
+  color("#81649C"); //violet
+}
+
+function b16() {
+  mid("934, 140");
+  color("#4F82B7"); //blue
+}
+
+ function b17() {
+  mid("960, 140");
+  color("#81649C"); //violet
+}
+
+function b18() {
+  mid("968, 140");
+  color("#4F82B7"); //blue
+}
+    
+function b19() {
+  mid("996, 140");
+  color("#81649C"); //violet
+}
+
+function b20() {
+  mid("1006, 140");
+  color("#4F82B7"); //blue
+}
+
+function b21() {
+  mid("1032, 140");
+  color("#81649C"); //violet
+}
+
+function b22() {
+  mid("1040, 140");
+  color("#4F82B7"); //blue
+}
+
+function b23() {
+  mid("1058, 140");
+  color("#4F82B7"); //blue
+}
