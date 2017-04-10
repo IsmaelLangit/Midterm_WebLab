@@ -64,11 +64,11 @@ if (category == "LiR" && num >= 690 && num <= 700) {
   mid ="112, 232";
   color = "#81649C"; //violet
 
-} else if (category == "Li" && num >= 808 && num <= 808) {
+} else if (category == "Li" && num >= 808 && num < 809) {
   mid ="92, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "Li" && num >= 808 && num <= 808) {
+} else if (category == "Li" && num >= 808 && num < 809) {
   mid ="82, 232";
   color = "#81649C"; //violet
 
@@ -95,19 +95,19 @@ if (category == "AS" && num >= 600 && num <= 610) {
 	mid ="783, 234";
   	color = "#81649C"; //violet
 	
-} else if (category == "AS" && num >= 610 && num <= 610) {
+} else if (category == "AS" && num >= 610 && num < 611) {
   mid ="793, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "AS" && num >= 610 && num <= 610) {
+} else if (category == "AS" && num >= 610 && num < 611) {
   mid ="818, 232";
   color = "#81649C"; //violet
 
-} else if (category == "AS" && num >= 610 && num <= 610) {
+} else if (category == "AS" && num >= 610 && num < 611) {
   mid ="828, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "AS" && num >= 610 && num <= 610) {
+} else if (category == "AS" && num >= 610 && num < 611) {
   mid ="854, 232";
   color = "#81649C"; //violet
 
@@ -119,11 +119,11 @@ if (category == "AS" && num >= 600 && num <= 610) {
   mid ="888, 232";
   color = "#81649C"; //violet
 
-} else if (category == "AS" && num >= 612 && num <= 612) {
+} else if (category == "AS" && num >= 612 && num < 613) {
   mid ="898, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "AS" && num >= 612 && num <= 612) {
+} else if (category == "AS" && num >= 612 && num < 613) {
   mid ="925, 232";
   color = "#81649C"; //violet
 
@@ -131,7 +131,7 @@ if (category == "AS" && num >= 600 && num <= 610) {
   mid ="934, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "AS" && num >= 613 && num <= 613) {
+} else if (category == "AS" && num >= 613 && num < 614) {
   mid ="959, 232";
   color = "#81649C"; //violet
 
@@ -139,19 +139,19 @@ if (category == "AS" && num >= 600 && num <= 610) {
   mid ="969, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "AS" && num >= 615 && num <= 615) {
+} else if (category == "AS" && num >= 615 && num < 616) {
   mid ="996, 232";
   color = "#81649C"; //violet
 
-} else if (category == "AS" && num >= 615 && num <= 615) {
+} else if (category == "AS" && num >= 615 && num < 616) {
   mid ="1005, 232";
   color = "#4F82B7"; //blue
 
-} else if (category == "AS" && num >= 615 && num <= 615) {
+} else if (category == "AS" && num >= 615 && num < 616) {
   mid ="1030, 232";
   color = "#81649C"; //violet
 
-} else if (category == "AS" && num >= 615 && num <= 615) {
+} else if (category == "AS" && num >= 615 && num < 616) {
   mid ="1040, 232";
   color = "#4F82B7"; //blue
 
