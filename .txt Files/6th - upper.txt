@@ -73,40 +73,40 @@ if(category == "ASR" && num >= 600 && num <= 611){
 //upper left corner
 
 if(category == "AS"){
-  mid("394, 140");
+  mid="394, 140";
   color("#4F82B7"); //blue
 }else if(category == "AS"){
-  mid("385, 140");
+  mid="385, 140";
   color("#4F82B7"); //blue
 }else if(category == "AR"){
-  mid("366, 140");
+  mid="366, 140";
   color("#4F82B7"); //blue
 }else if(category == "AR"){
-  mid("356, 140");
+  mid="356, 140";
   color("#81649C"); //violet
 }else if(category == "AS" && num >= 619 && num < 620){
-  mid("338, 140");
+  mid="338, 140";
   color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 620 && num <= 621){
-  mid("328, 140");
+  mid="328, 140";
   color("#81649C"); //violet
 }else if(category == "AS" && num >= 620 && num < 621){
-  mid("311, 140");
+  mid="311, 140";
   color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 620 && num < 621){
-  mid("302, 140");
+  mid="302, 140";
   color("#81649C"); //violet
 }else if(category == "AS" && num >= 620 && num < 621){
-  mid("283, 140");
+  mid="283, 140";
   color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 620 && num < 621){
-  mid("273, 140");
+  mid="273, 140";
   color("#81649C"); //violet
 }else if(category == "AS" && num >= 620 && num < 621){
-  mid("255, 140");
+  mid="255, 140";
   color("#4F82B7"); //blue
 }else if(category == "AS" && num >= 621 && num <= 624){
-  mid("245, 140");
+  mid="245, 140";
   color("#81649C"); //violet
 }else if(category == "AS" && num >= 623 && num < 624){
   mid("227, 140");
