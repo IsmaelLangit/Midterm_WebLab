@@ -1,68 +1,71 @@
-if(category == "ASR" && num >= 600 && num <= 611){
-  mid("678, 140");
-  color("#81649C"); //violet
-}else if(category == "ASR" && num >= 612 && num <= 618){
-  mid("686, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 618  && num < 619){
-  mid("710, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 618  && num < 619){
-  mid("720, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 618 && num < 619){
-  mid("749, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 617 && num <= 618){
-  mid("757, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 617 && num < 618){
-  mid("784, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 616 && num <= 617){
-  mid("792, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("818, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("826, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("854, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("864, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("888, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("897, 140");
-  color("#4F82B7"); //blue
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("925, 140");
-  color("#81649C"); //violet
-}else if(category == "AS" && num >= 616 && num < 617){
-  mid("934, 140");
-  color("#4F82B7"); //blue
+//upper right corner
 
+if(category == "ASR" && num >= 600 && num <= 611){
+  mid = "678, 140";
+  color = "#81649C"; //violet
+    valid = true;
+    floor = 6;
+}else if(category == "ASR" && num >= 612 && num <= 618){
+  mid ="686, 140";
+  color= "#4F82B7"; //blue
+}else if(category == "AS" && num >= 618  && num < 619){
+  mid= "710, 140";
+  color= "#81649C"; //violet
+}else if(category == "AS" && num >= 618  && num < 619){
+  mid="720, 140";
+  color="#4F82B7"; //blue
+}else if(category == "AS" && num >= 618 && num < 619){
+  mid="749, 140";
+  color="#81649C"; //violet
+}else if(category == "AS" && num >= 617 && num <= 618){
+  mid="757, 140";
+  color="#4F82B7"; //blue
+}else if(category == "AS" && num >= 617 && num < 618){
+  mid="784, 140";
+  color="#81649C"; //violet
+}else if(category == "AS" && num >= 616 && num <= 617){
+  mid="792, 140";
+  color="#4F82B7"; //blue
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="818, 140";
+  color="#81649C"; //violet
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="826, 140";
+  color="#4F82B7"; //blue
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="854, 140";
+  color="#81649C"; //violet
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="864, 140";
+  color="#4F82B7"; //blue
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="888, 140";
+  color="#81649C"; //violet
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="897, 140";
+  color="#4F82B7"; //blue
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="925, 140";
+  color="#81649C"; //violet
+}else if(category == "AS" && num >= 616 && num < 617){
+  mid="934, 140";
+  color="#4F82B7"; //blue
 }else if(category == "As-Pr" && num >= 617 && num <= 618){
-  mid("960, 140");
-  color("#81649C"); //violet
+  mid="960, 140";
+  color="#81649C"; //violet
 }else if(category == "As-Pr" && num >= 616 && num <= 617){
-  mid("968, 140");
-  color("#4F82B7"); //blue
+  mid="968, 140";
+  color="#4F82B7"; //blue
 }else if(category == "As-Pr" && num >= 616 && num < 617){
-  mid("996, 140");
-  color("#81649C"); //violet
+  mid="996, 140";
+  color="#81649C"; //violet
 }else if(category == "As-Pr" && num >= 616 && num < 617){
-  mid("1006, 140");
-  color("#4F82B7"); //blue
+  mid="1006, 140";
+  color="#4F82B7"; //blue
 }else if(category == "As-Pr" && num >= 614 && num <= 616){
-  mid("1032, 140");
-  color("#81649C"); //violet
+  mid="1032, 140";
+  color="#81649C"; //violet
 }else if(category == "As-Pr" && num >= 610 && num <= 613){
-  mid("1040, 140");
-  color("#4F82B7"); //blue
+  mid="1040, 140";
+  color="#4F82B7"; //blue
 }
