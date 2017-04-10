@@ -1,4 +1,4 @@
-Lower left corner 6th floor
+//Lower left corner 6th floor
 
 else if (category == "LiR" && num >= 690 && num <= 700) {
 	mid = "348, 234";
@@ -91,7 +91,7 @@ else if (category == "LiR" && num >= 690 && num <= 700) {
   color = "#81649C"; //violet
 }	
 
-6th floor lower right
+//6th floor lower right
 
 if (category == "AS" && num >= 600 && num <= 610) {
 	mid ="783, 234";
