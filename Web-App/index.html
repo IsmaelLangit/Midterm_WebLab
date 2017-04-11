@@ -68,7 +68,8 @@
 			<select id="mySelect">
 			  <option value="AS">AS</option>	
 			  <option value="As-Pr">As-Pr</option>	
-			  <option value="ASR">ASR</option>		
+			  <option value="ASR">ASR</option>
+                <option value="ArR">ArR</option>
 			  <option value="F">F</option>	
 			  <option value="FIC">FIC</option>	
 			  <option value="G">G</option>	
@@ -125,7 +126,9 @@
 				range("610", "618");
 			} else if (category == "ASR") {
 				range("610", "618");
-			} else if (category == "F") {
+			}else if (category == "ArR"){
+                range("708", "709");
+            }else if (category == "F") {
 				range("001", "959");
 			} else if (category == "FIC") {
 				range("233", "9940");
@@ -529,7 +532,7 @@
                   color="#4F82B7"; //blue
                     valid = true;
                      floor = 6;
-                }else if(category == "AR"){
+                }else if(category == "ASR"){
                   mid="366, 140";
                   color="#4F82B7"; //blue
                     valid = true;
