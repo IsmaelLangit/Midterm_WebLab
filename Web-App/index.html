@@ -69,9 +69,10 @@
 			  <option value="AS">AS</option>	
 			  <option value="As-Pr">As-Pr</option>	
 			  <option value="ASR">ASR</option>
-                <option value="ArR">ArR</option>
+              <option value="ArR">ArR</option>
 			  <option value="F">F</option>	
-			  <option value="FIC">FIC</option>	
+			  <option value="FIC">FIC</option>
+			  <option value="FR">FR</option>				  	
 			  <option value="G">G</option>	
 			  <option value="GN">GN</option>	
 			  <option value="GR">GR</option>	
@@ -188,7 +189,143 @@
 				var valid = null;
 				var floor;
 
-			 	if (category == "SS" && num >= 373 && num <= 374) {
+				//4th floor
+				//Filipiniana Refernce
+				if (category == "FR" && num >= 305 && num <= 959) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4; 
+
+				} else if (category == "F" && num == 0) {
+					mid = " ";
+					color = "#81649C";
+					valid = true;
+					floor = 4;
+
+			  	} else if (category == "FR" && num >= 373 && num <= 899) {
+				  mid = " ";
+				  color ="#4F82B7"; 
+				  valid = true;
+                  floor = 4; 
+
+				} else if (category == "F" && num >= 359 && num <= 959) {
+				  mid = " ";
+				  color ="#81649C"; 
+				  valid = true;
+                  floor = 4; 
+
+			  	} else if (category == "FR" && num >= 323 && num <= 959) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4; 
+
+			  	} else if (category == "FR" && num == 959) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4; 
+
+			  	} else if (category == "F" && num >= 759 && num <= 959) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4; 
+
+			  	} else if (category == "F" && num >= 499 && num <= 759) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4; 
+
+			   	} else if (category == "F" && num >= 315 && num <= 499) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+
+			   	} else if (category == "F" && num >= 1 && num <= 315) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4; 
+
+			   	} else if (category == "FR" && num == 0) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+
+			    } else if (category == "FR" && num >= 305 && num <= 959) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//Filipiniana General Collection
+				else if (category == "F" && num >= 551 && num <= 899) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+
+			  	} else if (category == "F" && num >= 551 && num <= 899) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+
+				} else if (category == "F" && num >= 899 && num <= 959) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+
+			  	} else if (category == "F" && num >= 899 && num <= 959) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//Rizal Books
+				else if (category == "F" && num == 959) {
+				  mid = " ";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}else if (category == "F" && num == 959) {
+				  mid = " ";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+				}
+				//GN
+				else if (category == "GN" && num >= 688 && num <= 9684){
+				  mid = "292, 140.5";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+				}else if (category == "GN" && num >= 658 && num <= 1634){
+				  mid = "284, 140.5";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//Fiction
+				else if (category == "F" && num >= 599 && num <= 9940){
+				  mid = "261, 140.5";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+				}else if (category == "GN" && num >= 223 && num <= 912){
+				  mid = "252, 140.5";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//5th floor
+			 	else if (category == "SS" && num >= 373 && num <= 374) {
 				  mid = "137, 143";
 				  color ="#81649C"; //violet
 				  valid = true;
