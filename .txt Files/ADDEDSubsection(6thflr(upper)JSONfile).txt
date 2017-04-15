@@ -1,0 +1,341 @@
+block = [
+    // upper right 6th floor
+    {
+				"Subsection" : "Subject Reference Corner",
+                  "mid" : "678, 140",
+                  "color" : "#81649C",
+
+    },
+    
+    {
+                "Subsection" : "Subject Reference Corner",
+                "mid" : "686, 140",
+                "color" : "#4F82B7",
+    },
+    
+    {
+                "Subsection" : "Gediatrics",
+                 "mid" :"686, 140",             
+                "color" : "#81649C", //violet
+    },           
+    {
+                 "Subsection" : "Pediatrics",
+                 "mid" : "720, 140",            
+                 "color" :"#4F82B7", //blue  
+    },
+    {
+                 "Subsection" : "Obstetrics",
+                 "mid" : "749, 140",   
+                 "color" :"#81649C", //violet   
+    },
+    {
+                 "Subsection" : "Gynecology",
+                 "mid" : "749, 140",   
+                 "color" :"#81649C", //violet
+    },
+     
+    {
+                "Subsection" : "Oncology",
+                "mid" : "792, 140",       
+                "color" :"#4F82B7", //blue  
+    
+    },   
+    {
+               "Subsection" : "Surgery",
+                "mid" : "792, 140",       
+                "color" :"#4F82B7", //blue  
+    
+        
+    },
+    
+    {           
+                "Subsection" : "Medical Microbiology",
+                "mid" : "826, 140",  
+                "color" :"#4F82B7", //blue    
+    
+    },
+    
+    {
+        
+                "Subsection" : "Communicable Disease",
+                "mid" : "826, 140",  
+                "color" :"#4F82B7", //blue 
+    },
+    
+    {
+                "Subsection" : "Pediatrics",
+                "mid" : "854, 140",           
+                "color" :"#81649C", //violet   
+    
+    },
+    {
+                 "Subsection": "Pediatrics",
+                 "mid" : "864, 140",             
+                 "color" :"#4F82B7", //blue   
+                
+    },
+    
+    {
+                "Subsection" : "Diseases of Cardiovascular System",
+                "mid" : "888, 140",     
+                "color" :"#81649C", //violet   
+    
+    },
+    
+    {
+                "Subsection" : "Physical Diagnosis" ,
+                "mid" : "897, 140",             
+                "color" :"#4F82B7", //blue
+    
+    },
+    
+    {
+        
+                "Subsection" : "Radiologic Diagnosis" ,
+                "mid" : "897, 140",               
+                "color" :"#4F82B7", //blue
+    },
+    {
+                "Subsection": "Diagnosis & Prognosis",
+                "mid" : "925, 140",          
+                "color" :"#81649C", //violet
+    },
+    
+    {
+                "Subsection": "Pathology",
+                "mid" : "925, 140",          
+                "color" :"#81649C", //viole
+    },
+    
+    {
+                "Subsection": "Diseases",
+                "mid" : "934, 140",           
+                "color" :"#4F82B7", //blue 
+    
+    },
+    {
+                "Subsection": "Medical Emergencies",
+                "mid" : "934, 140",           
+                "color" :"#4F82B7", //blue
+        
+    },
+    
+    {
+        
+                "Subsection" : "Journals",
+                 "mid" : "960, 140",             
+                "color" :"#81649C", //violet 
+    },
+
+    
+    {
+        
+                "Subsection" : "Journals",
+                "mid" : "968, 140",               
+                "color" :"#4F82B7", //blue  
+    
+    },
+    
+    {   
+                 "Subsection" : "Journals",
+                 "mid" : "996, 140",             
+                 "color" :"#81649C", //violet   
+    
+    
+    },
+    
+    {
+                  "Subsection" : "Journals",
+                  "mid" : "1006, 140",         
+                  "color" :"#4F82B7", //blue 
+    
+    },
+    
+    {
+                 "Subsection" : "Radiologic",
+                 "mid" : "1032, 140", 
+                 "color" :"#81649C", //violet 
+                
+    
+    },
+           
+    {
+    
+                   "Subsection" : "SNS Book",
+                   "mid" : "1040, 140",         
+                   "color" :"#4F82B7", //blue
+    
+    },
+    
+    //upper left
+    {
+                    "Subsection" : "Machinery",
+                     "mid" : "394, 140",
+                     "color" : "#4F82B7" //blue
+    },
+    {   
+                     "Subsection" : "Plumbing",
+                      "mid" : "385, 140",
+                      "color" : "#4F82B7" //blue
+    },
+    
+    {
+                    "Subsection": "Cabling",
+                    "mid" : "356, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Engineering",
+                    "mid" : "338, 140",
+                    "color" : "#4F82B7" //blue
+    },
+    
+    {
+                    "Subsection": "Mechanical Engineering",
+                    "mid" : "328, 140",
+                    "color" : "#81649C" //violet
+        
+    },
+    
+    {
+        
+                    "Subsection": "Electrical Engineering",
+                    "mid" : "311, 140",
+                    "color" : "#4F82B7" //blue
+    },
+
+    {
+                    "Subsection": "ECE",
+                    "mid" : "302, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Circuit Design",
+                    "mid" : "283, 140",
+                    "color" : "#4F82B7" //blue            
+    },
+    
+    {
+                    "Subsection" : "Thermodynamics",
+                    "mid" : "273, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Machine Engineering",
+                    "mid" : "255, 140",
+                    "color" : "#4F82B7" //blue
+    },
+    
+    {
+                    "Subsection": "Civil Engineering",
+                    "mid" : "245, 140",
+                    "color" : "#81649C" //violet
+        
+    },
+    
+    {
+                    "Subection": "Structural Design",
+                    "mid" : "227, 140",
+                    "color" : "#4F82B7" //blue 
+    },
+    
+    {
+                    "Subsection": "Sanitary and Environmental Engineering",
+                    "mid" : "217, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Agriculture",
+                    "mid" : "200, 140",
+                    "color" : "#4F82B7" //blue 
+    },
+    
+    {
+                    "Subsection": "General Management",
+                    "mid" : "190, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Personal Management",       
+                    "mid" : "171, 140",
+                    "color" : "#4F82B7" //blue
+    },
+    
+    {
+                    "Subsection": "Production Management",
+                    "mid" : "161, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Advertising",  
+                    "mid" : "143, 140",
+                    "color" : "#4F82B7" //blue
+    },
+    
+    {
+
+                    "Subsection": "Manufacturing",
+                    "mid" : "133, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+                    "Subsection": "Constructions of Buildings",
+                    "mid" : "114, 140",
+                    "color" : "#4F82B7" //blue        
+    },
+    
+    {
+
+                    "Subsection": "Landscape Architecture and Engineering",
+                    "mid" : "104, 140",
+                    "color" : "#81649C" //violet
+    },
+    
+    {
+
+                    "Subsection": "Architetuural Designs and Thoery",
+                    "mid" : "86, 140",
+                    "color" : "#4F82B7" //blue  
+    },
+    
+    {
+
+                    "Subsection": "Photography,Painting & House Design",
+                    "mid" : "76, 140",
+                    "color" : "#81649C" //violet
+    },
+
+    {
+                    "Subsection": "Performing Arts",
+                    "mid" : "59, 140",
+                    "color" : "#4F82B7" //blue
+    },
+    {
+                    "Subsecction": "Engineering",
+                    "mid" : "49, 140",
+                    "color" : "#81649C" //violet
+
+    },
+    
+    {
+    
+                    "Subsection": "Construction and Mining",
+                    "mid" : "31, 140",
+                    "color" : "#4F82B7" //blue
+    },
+
+    {
+                    "Subsection": "Chemical Engineering and Journal of Transporation Engineering",
+                    "mid" : "22, 140",
+                    "color" : "#81649C" //violet
+    },
+
+                    
+]
