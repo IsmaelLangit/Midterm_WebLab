@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <!-- saved from url=(0058)file:///C:/Users/Ismael%20Langit/Desktop/Sample/index.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script type="text/javascript" src="file:///C:/Users/Ismael%20Langit/Desktop/Sample/data.json"></script>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script type="text/javascript" src="data.json"></script>
 
 
 </head><body>
 
 <h2>Store and retreive data from local storage.</h2>
 
-<p id="demo">gray</p>
+<p id="demo"></p>
 
 <script>
 var myObj, myJSON, text, obj;
 
 //Storing data:
 
-myJSON = JSON.stringify(myObj);
+myJSON = JSON.stringify(block);
 localStorage.setItem("testJSON", myJSON);
 
 //Retrieving data:
@@ -22,15 +23,14 @@ text = localStorage.getItem("testJSON");
 obj = JSON.parse(text);
 
 
-var inputcat = "SL";
-var num = "835";
+var inputcat = "V";
+var num = "1150";
 
 
 for (var i = 0; i <= obj.length ; i++ ){
 var category = obj[i].category;
-var mincat = obj[i].mincat;
-var maxcat = obj[i].maxcat;
-
+var mincat = obj[i].min;
+var maxcat = obj[i].max;
 if (inputcat == category && num >= mincat && num <= maxcat ){
 document.getElementById("demo").innerHTML = obj[i].color;
 }

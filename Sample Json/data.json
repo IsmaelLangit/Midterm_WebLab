@@ -1,4 +1,4 @@
-myObj = [
+block = [
 	{
 		"category" : "AS",
 		"min" : "360",
@@ -35,11 +35,11 @@ myObj = [
 		"color" : "#738384"
 	},
 	{
-		"category" : "AS",
-		"min" : "360",
-		"max" : "370",
+		"category" : "V",
+		"min" : "1000",
+		"max" : "1200",
 		"mid" : "343, 232",
-		"color" : "#738384"
+		"color" : "pink"
 	}
 ];
 
