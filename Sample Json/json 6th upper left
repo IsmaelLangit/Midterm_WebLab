@@ -1,0 +1,340 @@
+block = [              
+{
+"category" : "ASR", 
+"min" : 620 
+"max" := "621",
+
+"mid" : "394, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "ASR", 
+"min" : 619 
+"max" : 620
+
+"mid" : "385, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "ASR", 
+"min" : "621", 
+"max" := 643
+
+"mid" : "366, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "ASR", 
+"min" : 643 
+"max" := 697 || category == "ArR" 
+"min" : 708 
+"max" : 709 
+
+"mid" : "356, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 619 
+"max" : 620
+
+"mid" : "338, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 620 
+"max" := "621",
+
+"mid" : "328, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 620 
+"max" : "621",
+
+"mid" : "311, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 620 
+"max" : "621",
+
+"mid" : "302, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 620 
+"max" : "621",
+
+"mid" : "283, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 620 
+"max" : "621",
+
+"mid" : "273, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 620 
+"max" : "621",
+
+"mid" : "255, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "621", 
+"max" := 624
+
+"mid" : "245, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 623 
+"max" : 624
+
+"mid" : "227, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : 624 
+"max" := "628",
+
+"mid" : "217, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "628", 
+"max" := "633",
+
+"mid" : "200, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "633", 
+"max" := "658",
+
+"mid" : "190, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "657", 
+"max" : "658",
+
+"mid" : "171, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "657", 
+"max" : "658",
+
+"mid" : "161, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "658", 
+"max" := "660",
+
+"mid" : "143, 140",
+
+"color" : "#4F82B7" //blue
+                
+                 "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "660", 
+"max" := "671",
+
+"mid" : "133, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "671", 
+"max" := "693",
+
+"mid" : "114, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "693", 
+"max" := "719",
+
+"mid" : "104, 140",
+
+"color" : "#81649C" //violet
+
+"floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "720",
+"max" := "725",
+
+"mid" : "86, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "725", 
+"max" := "780",
+
+"mid" : "76, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "780", 
+"max" := "796",
+
+"mid" : "59, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "796", 
+"max" := "799",
+
+"mid" : "49, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "621", 
+"max" := "628",
+
+"mid" : "31, 140",
+
+"color" : "#4F82B7" //blue
+  
+   "floor" : "6"
+},
+                
+{
+"category" : "AS", 
+"min" : "628", 
+"max" := "660",
+
+"mid" : "22, 140",
+
+"color" : "#81649C" //violet
+  
+   "floor" : "6"
+},
+               
+];
