@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>LibWaze</title>
+	<Link rel="stylesheet" href="styles/classes.css" />
+	<Link rel="stylesheet" href="styles/nav.css" />
+	<Link rel="stylesheet" href="styles/typography.css" />
+	<Link rel="icon" href="images/icon/icon.png">
+</head>
+
+<body>	
+
+<header>
+    <nav>
+        <ul>
+        	<li class="logo">
+				<a href="index.html"><img src="images/icon/nav-icon.png" height="45" alt="WEBTEK"></a>
+			</li>
+			<li><a href="6thfloor.html">Sixth Floor</a></li>
+			<li><a href="5thfloor.html">Fifth Floor</a></li>
+            <li><a href="4thfloor.html">Fourth Floor</a></li>
+            <li><a href="index.html">Home</a></li>
+		</ul>
+    </nav>
+</header>
+
+<div class="top-page cover"> 
+	<img id = "logotitle" src  ="images/icon/icon.png" alt="logo"> 
+	<h1 id = "nametitle"> LibWaze </h1> 
+	<h2 id = "descnametitle"> SHOWS ROUTES, FINDS BOOKS </h2>
+	<a href="#about" class="scroll" data-speed="250"><img id = "arrow1" class = "arrow bounce" src  ="images/icon/arrow.png" alt="logo"></a>
+</div>
+
+<div class="content about-page" id="about">
+	<div class = "subcontent" id = "intro">
+	<h1> LibWaze </h1>
+	<p><strong>Libwaze</strong> is a navigation web-application made to aid in Saint Louis University students' library use, which gives route towards the shelf where a particular book held at the SLU Libraries is located by keying in the book's call number (section and DDC number).
+	</div>
+
+	<div class = "subcontent" id = "easy">
+		<img id = "easy-logo" src  ="images/icon/easy.png" alt="easy" onmouseover="this.src='images/icon/easy2.png'" onmouseout="this.src = 'images/icon/easy.png'">
+		<h2> EASY </h2>
+		<p> The interface is easy to understand and use. </p>
+	</div>
+
+	<div class = "subcontent" id = "interactive">
+		<img id = "interactive-logo" src  ="images/icon/interactive.png" alt="interactive" onmouseover="this.src='images/icon/interactive2.png'" onmouseout="this.src = 'images/icon/interactive.png'">
+		<h2> INTERACTIVE </h2>
+		<p> When you start finding the location of the book or subsection, with one click, it shows the route on the map. </p>
+	</div>
+
+	<div class = "subcontent" id = "arrow">
+	<a href="#start" class="scroll" data-speed="250"><img id = "arrow1" class = "arrow bounce" src  ="images/icon/arrowBlack.png" alt="logo"></a>
+	</div>
+	</div>
+
+
+</div>
+
+<div class="content start-page" id="start">
+	<h2> Find the location of the book </h2>
+
+	<div class = "left-content">
+		<form id="form1">
+			<span id ="section-span">Section:</span>:
+			<select id="mySelect">
+			  <option value="AS">AS</option>	
+			  <option value="As-Pr">As-Pr</option>	
+			  <option value="ASR">ASR</option>
+              <option value="ArR">ArR</option>
+              <option value="Ar-Pr">Ar-Pr</option>
+			  <option value="F">F</option>	
+			  <option value="FIC">FIC</option>
+			  <option value="FR">FR</option>
+			  <option value="G">G</option>	
+			  <option value="GN">GN</option>	
+			  <option value="GR">GR</option>	
+			  <option value="Hg">Hg</option>	
+			  <option value="HgR">HgR</option>
+              <option value="Hg-Pr">Hg-Pr</option> 
+			  <option value="La">La</option>	
+			  <option value="La-PR">La-PR</option>	
+			  <option value="Li">Li</option>
+			  <option value="LiR">LiR</option>
+              <option value="Li-Pr">Li-Pr</option>
+			  <option value="PP">PP</option>	
+			  <option value="PS">PS</option>	
+			  <option value="PS-PR">PS-PR</option>	
+			  <option value="PSR">PSR</option>	
+			  <option value="Re">Re</option>	
+			  <option value="SS">SS</option>
+              <option value="SS/B-D">SS/B-D</option>
+              <option value="SS/C">SS/C</option>
+              <option value="SS/Ei">SS/Ei</option>
+              <option value="SS/F">SS/F</option>
+              <option value="SS/G">SS/G</option>
+              <option value="SS/M">SS/M</option>
+              <option value="SS/T">SS/T</option>
+			  <option value="SSG-PR">SSG-PR</option>	
+			  <option value="SS-PR">SS-PR</option>	
+			</select>
+		</form>
+
+		
+
+		<form id="form2" onsubmit="return false">
+			<span id ="ddc-span">DDC Number : </span> 
+			<input type="number" id="text-search" step=any required>
+
+			<button id = "button-home" type="submit" onclick="myFunction()" formtarget="_self">FIND</button>
+		</form>
+
+
+		<div class = "output">
+		<p id="output"></p>
+		<a href=""><p id ="target"></p></a>
+		</div>
+
+		<script type="text/javascript">
+		function myFunction() {
+			var category = document.getElementById("mySelect").value;
+			var element = document.getElementById("text-search");
+		    var num =document.getElementById("text-search").value;
+
+		    function range (min, max){
+				element.setAttribute("min", min);
+				element.setAttribute("max", max); 
+			}
+
+			//Setting min and max attribute
+			
+			if (category == "AS") {
+				range("600", "796");
+			} else if (category == "As-Pr") {
+				range("610", "618");
+			} else if (category == "ASR") {
+				range("610", "618");
+			}else if (category == "ArR"){
+                range("708", "709");
+            }else if (category == "F") {
+				range("001", "959");
+			} else if (category == "FIC") {
+				range("233", "9940");
+			} else if (category == "G") {
+				range("20", "393");
+			} else if (category == "GN") {
+				range("658", "9684");
+			} else if (category == "GR") {
+				range("1998", "1998");
+			} else if (category == "Hg") {
+				range("900", "998");
+			} else if (category == "HgR") {
+				range("903", "912");
+			} else if (category == "La") {
+				range("410", "495");
+			} else if (category == "La-PR") {
+				range("410", "416");
+			} else if (category == "Li") {
+				range("808", "897");
+			} else if (category == "LiR") {
+				range("803", "860");
+			}else if (category == "PP") {
+				range("100", "399");
+			}else if (category == "PS") {
+				range("505", "599");
+			}else if (category == "PS-PR") {
+				range("543", "595");
+			}else if (category == "PSR") {
+				range("500", "599");
+			}else if (category == "Re") {
+				range("210", "305");
+			}else if (category == "SS") {
+				range("053", "738");
+			}else if (category == "SS Ei") {
+				range("305", "307");	
+			}else if (category == "SS/B-D") {
+				range("330", "336");	
+			}else if (category == "SS/C") {
+				range("328", "332");
+			}else if (category == "SS/F") {
+				range("53", "1031");
+			}else if (category == "SS/G") {
+				range("340", "342");
+			}else if (category == "SS/M") {
+				range("338", "338");
+			}else if (category == "SS/T") {
+				range("301", "302");					
+			}else if (category == "SSG-PR") {
+				range("340", "378");
+			}else if (category == "SS-PR") {
+				range("300", "352");
+			} 
+		 	
+		 	if(num != "" ){
+				var mid = "";
+				var color = "";
+				var valid = null;
+				var floor;
+
+//4th floor
+				//Filipiniana Refernce
+				if (category == "FR" && num >= 305 && num <= 959) {
+				  mid = "157.5, 228, 174.5, 228";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4; 
+				} else if (category == "F" && num == 0) {
+					mid = "157.5, 236, 174.5, 236";
+					color = "#81649C";
+					valid = true;
+					floor = 4;
+			  	} else if (category == "FR" && num >= 378 && num <= 899) {
+				  mid = "157.5, 252, 174.5, 252";
+				  color ="#4F82B7"; 
+				  valid = true;
+                  floor = 4; 
+				} else if (category == "F" && num >= 359 && num <= 959) {
+				  mid = "157.5, 262, 174.5, 262";
+				  color ="#81649C"; 
+				  valid = true;
+                  floor = 4; 
+			  	} else if (category == "FR" && num >= 323 && num <= 959) {
+				  mid = "157.5, 279, 174.5, 279";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4; 
+			  	} else if (category == "FR" && num >= 959 && num < 960) {
+				  mid = "157.5, 289, 174.5, 289";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4; 
+			  	} else if (category == "F" && num >= 759 && num <= 959) {
+				  mid = "157.5, 309, 174.5, 309";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4; 
+			  	} else if (category == "F" && num >= 499 && num <= 759) {
+				  mid = "157.5, 319, 174.5, 319";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4; 
+			   	} else if (category == "F" && num >= 315 && num <= 499) {
+				  mid = "157, 334, 174.5, 334";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+			   	} else if (category == "F" && num >= 1 && num <= 315) {
+				  mid = "157.5, 342, 174.5, 342";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4; 
+			   	} 
+				//Filipiniana General Collection
+				else if (category == "F" && num >= 551 && num <= 899) {
+				  mid = "159, 296, 128, 296";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+
+			  	} else if (category == "F" && num >= 551 && num <= 899) {
+				  mid = "161, 305, 130, 305";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+
+				} else if (category == "F" && num >= 899 && num <= 959) {
+				  mid = "161, 322, 130, 322";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+
+			  	} else if (category == "F" && num >= 899 && num <= 959) {
+				  mid = "161, 331, 130, 331";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//Rizal Books
+				else if (category == "F" && num == 959) {
+				  mid = "157.5, 280.8, 8 ,280.8";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}else if (category == "F" && num == 959) {
+				  mid = "161, 343.5, 7, 343.5";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+				}
+				//GN
+				else if (category == "GN" && num >= 688 && num <= 9684){
+				  mid = "292, 140.5";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+				}else if (category == "GN" && num >= 658 && num <= 1634){
+				  mid = "284, 140.5";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//Fiction
+				else if (category == "F" && num >= 599 && num <= 9940){
+				  mid = "261, 140.5";
+				  color ="#4F82B7";
+				  valid = true;
+                  floor = 4;
+				}else if (category == "GN" && num >= 223 && num <= 912){
+				  mid = "252, 140.5";
+				  color ="#81649C";
+				  valid = true;
+                  floor = 4;
+				}
+				//5th floor
+			 	else if (category == "SS" && num >= 373 && num <= 374) {
+				  mid = "137, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 370 && num <= 374) {
+				  mid = "146, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 360 && num <= 370) {
+				  mid = "170, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 378 && num <= 388) {
+				  mid = "179, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 372 && num <= 388) {
+				  mid = "201, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 372 && num < 373) {
+				  mid = "210, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 371 && num <= 372) {
+				  mid = "235, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 371 && num <= 371) {
+				  mid = "244, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 370 && num <= 371) {
+				  mid = "269, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 370 && num < 371) {
+				  mid = "278, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 364 && num <= 370) {
+				  mid = "303, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 362 && num <= 363) {
+				  mid = "312, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 361 && num <= 362) {
+				  mid = "336, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS-PR" && num >= 333 && num <= 352) {
+				  mid = "345, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS-PR" && num >= 320 && num <= 330) {
+				  mid = "367, 143";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				}else if (category == "SS-PR" && num >= 300 && num <= 315) {
+				  mid = "376, 143";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SSG-PR" && num >= 340 && num <= 378) {
+				  mid = "671, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS-PR" && num >= 325 && num <= 340) {
+				  mid = "681, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SSG-PR" && num >= 340 && num <= 348) {
+				  mid = "701, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 512 && num <= 738) {
+				  mid = "710, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 280 && num <= 512) {
+				  mid = "731, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 55 && num <= 280) {
+				  mid = "740, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 1 && num <= 509) {
+				  mid = "763, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 347 && num <= 349) {
+				  mid = "772, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 346 && num < 347) {
+				  mid = "793, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 345 && num <= 346) {
+				  mid = "802, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 343 && num <= 345) {
+				  mid = "821, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/F" && num >= 53 && num <= 1031) {
+				  mid = "830, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/G" && num >= 340 && num <= 342) {
+				  mid = "850, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/M" && num >= 338 && num < 339) {
+				  mid = "859, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/B-D" && num >= 330 && num <= 336) {
+				  mid = "880, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/C" && num >= 328 && num <= 332) {
+				  mid = "889, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 323 && num <= 328) {
+				  mid = "911, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/F" && num >= 328 && num <= 330) {
+				  mid = "920, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS" && num >= 320 && num <= 323) {
+				  mid = "939, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS Ei" && num >= 305 && num <= 307) {
+				  mid = "948, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "SS/T" && num >= 301 && num <= 302) {
+				  mid = "968, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 302 && num <= 305) {
+				  mid = "977, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 300 && num < 301) {
+				  mid = "995, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 282 && num <= 299) {
+				  mid = "1004, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 268 && num <= 270) {
+				  mid = "1023, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 261 && num <= 266) {
+				  mid = "1032, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 253 && num <= 261) {
+				  mid = "104, 141";
+				  color ="#81649C"; //violet
+				  valid = true;
+                  floor = 5;
+				} else if (category == "Re" && num >= 242 && num <= 248) {
+				  mid = "1057, 141";
+				  color ="#4F82B7"; //blue
+				  valid = true;
+                  floor = 5;
+                    
+                    // upper right 6th floor
+				}else if(category == "ASR" && num >= 600 && num <= 611){
+                  mid = "678, 140";
+                  color = "#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "ASR" && num >= 612 && num <= 618){
+                  mid ="686, 140";
+                  color= "#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;             
+                }else if(category == "AS" && num >= 618  && num < 619){
+                  mid ="686, 140";
+                  color= "#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 618  && num < 619){
+                  mid="720, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 618 && num < 619){
+                  mid="749, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 617 && num <= 618){
+                  mid="757, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 617 && num < 618){
+                  mid="784, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num <= 617){
+                  mid="792, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="818, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="826, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="854, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="864, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="888, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="897, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="925, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 616 && num < 617){
+                  mid="934, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "As-Pr" && num >= 617 && num <= 618){
+                  mid="960, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "As-Pr" && num >= 616 && num <= 617){
+                  mid="968, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "As-Pr" && num >= 616 && num < 617){
+                  mid="996, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "As-Pr" && num >= 616 && num < 617){
+                  mid="1006, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                }else if(category == "As-Pr" && num >= 614 && num <= 616){
+                  mid="1032, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "As-Pr" && num >= 610 && num <= 613){
+                  mid="1040, 140";
+                  color="#4F82B7"; //blue
+                  valid = true;
+                  floor = 6;
+                    
+                    // upper left 6th floor
+                }else if(category == "ASR" && num >= 620 && num <= 621){
+                  mid="394, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "ASR" && num >= 619 && num < 620){
+                  mid="385, 140";
+                   color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "ASR" && num >= 621 && num <= 643){
+                  mid="366, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "ASR" && num >= 643 && num <= 697 || category == "ArR" && num >= 708 && num < 709 ){
+                  mid="356, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 619 && num < 620){
+                  mid="338, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 620 && num <= 621){
+                  mid="328, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 620 && num < 621){
+                  mid="311, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 620 && num < 621){
+                  mid="302, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 620 && num < 621){
+                  mid="283, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 620 && num < 621){
+                  mid="273, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 620 && num < 621){
+                  mid="255, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 621 && num <= 624){
+                  mid="245, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 623 && num < 624){
+                  mid="227, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 624 && num <= 628){
+                  mid="217, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 628 && num <= 633){
+                  mid="200, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 633 && num <= 658){
+                  mid="190, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 657 && num < 658){
+                  mid="171, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 657 && num < 658){
+                  mid="161, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 658 && num <= 660)
+                  mid="143, 140";
+                  color="#4F82B7"; //blue
+                valid = true;
+                 floor = 6;
+                }else if(category == "AS" && num >= 660 && num <= 671){
+                  mid="133, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 671 && num <= 693){
+                  mid="114, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 693 && num <= 719){
+                  mid="104, 140";
+                  color="#81649C"; //violet
+                  valid = true;
+                  floor = 6;
+                }else if(category == "AS" && num >= 720 && num <= 725){
+                  mid="86, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 725 && num <= 780){
+                  mid="76, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 780 && num <= 796){
+                  mid="59, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 796 && num <= 799){
+                  mid="49, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 621 && num <= 628)
+                  mid="31, 140";
+                  color="#4F82B7"; //blue
+                    valid = true;
+                     floor = 6;
+                }else if(category == "AS" && num >= 628 && num <= 660){
+                  mid="22, 140";
+                  color="#81649C"; //violet
+                    valid = true;
+                     floor = 6;
+               
+                }//Lower left corner 6th floor
+
+				else if (category == "LiR" && num >= 690 && num <= 700) {
+					mid = "348, 234";
+				  	color = "#4F82B7"; //blue
+				    valid = true;
+				    floor = 6;
+					
+				} else if (category == "HGR" && num >= 912 && num <= 994) {
+					mid ="340, 234";
+				  	color = "#81649C"; //violet
+				  	valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 973 && num <= 998) {
+				  mid ="318, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 956 && num <= 973) {
+				  mid ="308, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 943 && num <= 956) {
+				  mid ="284, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 940 && num <= 943) {
+				  mid ="274, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 930 && num <= 940) {
+				  mid ="250, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 910 && num <= 930) {
+				  mid ="240, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Hg" && num >= 900 && num <= 910) {
+				  mid ="216, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >=  843 && num <= 897) {
+				  mid ="206, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 823 && num <= 843) {
+				  mid ="184, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 823 && num < 824) {
+				  mid ="174, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 821 && num <= 823) {
+				  mid ="152, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 818 && num <= 821) {
+				  mid ="142, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 811 && num <= 818) {
+				  mid ="122, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 808 && num <= 811) {
+				  mid ="112, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 808 && num < 809) {
+				  mid ="92, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li" && num >= 808 && num < 809) {
+				  mid ="82, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "HG-PR" && num >= 973 && num <= 974) {
+				  mid ="63, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "HG-PR" && num >= 910 && num <= 973) {
+				  mid ="53, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Li-Pr" && num >= 809 && num <= 910) {
+				  mid ="33, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "Ar-Pr" && num >= 746 && num <= 809) {
+				  mid ="23, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+				}	
+
+				//6th floor lower right
+
+				if (category == "AS" && num >= 600 && num <= 610) {
+					mid ="783, 234";
+				  	color = "#81649C"; //violet
+				  	valid = true;
+				    floor = 6;
+					
+				} else if (category == "AS" && num >= 610 && num < 611) {
+				  mid ="793, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 610 && num < 611) {
+				  mid ="818, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 610 && num < 611) {
+				  mid ="828, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 610 && num < 611) {
+				  mid ="854, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 610 && num <= 611) {
+				  mid ="864, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 611 && num <= 612) {
+				  mid ="888, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 612 && num < 613) {
+				  mid ="898, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 612 && num < 613) {
+				  mid ="925, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 612 && num <= 613) {
+				  mid ="934, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 613 && num < 614) {
+				  mid ="959, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 613 && num <= 615) {
+				  mid ="969, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 615 && num < 616) {
+				  mid ="996, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 615 && num < 616) {
+				  mid ="1005, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 615 && num < 616) {
+				  mid ="1030, 232";
+				  color = "#81649C"; //violet
+				  valid = true;
+				    floor = 6;
+
+				} else if (category == "AS" && num >= 615 && num < 616) {
+				  mid ="1040, 232";
+				  color = "#4F82B7"; //blue
+				  valid = true;
+				    floor = 6;
+
+				}else {
+					valid = false;
+					document.getElementById("output").innerHTML = "";
+				}
+
+				if (valid == true) {
+				document.getElementById("output").innerHTML = "You've search for : " + category + "-" + num;
+		 		localStorage.setItem("mid", mid); 
+		 		localStorage.setItem("color", color);  
+		 		}
+		 	}
+		}
+		</script>
+	</div>
+
+	<div class = "right-content">
+		<img id = "callnum" src  ="images/info/callnum.png" alt="call number">
+	</div>
+
+	<a href="#contact" class="scroll" data-speed="250"><img id = "arrow1" class = "arrow bounce" src  ="images/icon/arrow.png" alt="logo"></a>
+</div>
+
+<div class="content contact-page" id="contact">
+	<h1>Contact LibWaze</h1>
+	
+	<div class = "subcontent" id = "email">
+		<img id = "email-icon" src  ="images/icon/email.png" alt="e-mail icon">
+		<h2>Mail Us</h2>
+		<p>libwaze@gmail.com</p>
+	</div>
+	
+	<div class = "subcontent" id = "message">
+		<img id = "message-icon" src  ="images/icon/message.png" alt="message icon">
+		<h2>Message Us</h2>
+		<p>09XX-XXX-XXXX</p>
+	</div>
+	
+	<div class = "subcontent" id = "call">
+		<img id = "call-icon" src  ="images/icon/call.png" alt="call icon">
+		<h2>Call Us</h2>
+		<p>XXX-XXXX</p>
+	</div>
+	
+	<div class = "subcontent" id = "fb">
+		<img id = "fb-icon" src  ="images/icon/fb.png" alt="facebook icon">
+		<h2>Follow Us On Facebook</h2>
+		<p>libewaze@facebook.com</p>
+	</div>
+	
+	<div class = "subcontent" id = "aboutUs">
+		<h1>About Us</h1>
+		<p></p>
+	</div>
+</div>
+
+
+		<footer class="footerCenter">
+
+			<a href="index.html"><img class="footerImg" src="images/icon/nav-icon.png"></img></a>
+			<p class="footerName">Show Routes, Find Books &copy; 2017</p>
+
+		</footer>
+
+<script type="text/javascript">
+	(function() {
+
+     'use strict';
+
+    // Feature Test
+    if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+
+        // Function to animate the scroll
+        var smoothScroll = function (anchor, duration) {
+
+            // Calculate how far and how fast to scroll
+            var startLocation = window.pageYOffset;
+            var endLocation = anchor.offsetTop;
+            var distance = endLocation - startLocation;
+            var increments = distance/(duration/16);
+            var stopAnimation;
+
+            // Scroll the page by an increment, and check if it's time to stop
+            var animateScroll = function () {
+                window.scrollBy(0, increments);
+                stopAnimation();
+            };
+
+            // If scrolling down
+            if ( increments >= 0 ) {
+                // Stop animation when you reach the anchor OR the bottom of the page
+                stopAnimation = function () {
+                    var travelled = window.pageYOffset;
+                    if ( (travelled >= (endLocation - increments)) || ((window.innerHeight + travelled) >= document.body.offsetHeight) ) {
+                        clearInterval(runAnimation);
+                    }
+                };
+            }
+            // If scrolling up
+            else {
+                // Stop animation when you reach the anchor OR the top of the page
+                stopAnimation = function () {
+                    var travelled = window.pageYOffset;
+                    if ( travelled <= (endLocation || 0) ) {
+                        clearInterval(runAnimation);
+                    }
+                };
+            }
+
+            // Loop the animation function
+            var runAnimation = setInterval(animateScroll, 16);
+       
+        };
+
+        // Define smooth scroll links
+        var scrollToggle = document.querySelectorAll('.scroll');
+
+        // For each smooth scroll link
+        [].forEach.call(scrollToggle, function (toggle) {
+
+            // When the smooth scroll link is clicked
+            toggle.addEventListener('click', function(e) {
+
+                // Prevent the default link behavior
+                e.preventDefault();
+
+                // Get anchor link and calculate distance from the top
+                var dataID = toggle.getAttribute('href');
+                var dataTarget = document.querySelector(dataID);
+                var dataSpeed = toggle.getAttribute('data-speed');
+
+                // If the anchor exists
+                if (dataTarget) {
+                    // Scroll to the anchor
+                    smoothScroll(dataTarget, dataSpeed || 500);
+                }
+
+            }, false);
+
+        });
+
+    }
+
+ })();
+</script>
+</body>
+</html>
