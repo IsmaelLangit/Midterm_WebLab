@@ -1,92 +1,120 @@
 5th floor Entrance side
 
- "category : "GR"   >: 264   <: 294
-	"min" : "343",
-    "max" : "346",
+ "category : "GR",
+	"min" : "264",
+    "max" : "294",
 	"mid" : "732, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
 	
- "category : "Re"   >: 264   <: 294
+ "category : "Re",
+ 	"min" : "264",
+ 	"max" : "294",
 	"mid" : "741, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
 	
- "category : "GR"   : 1998
+ "category : "GR",
+  	"min" : "1998",
+ 	"max" : "1998",
     "mid" : "759, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PPR"   : 230
+ "category : "PPR",
+  	"min" : "230",
+ 	"max" : "230",
 	"mid" : "768, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PPR"   >: 153   <: 343
+ "category : "PPR"   >:    <: 
+  	"min" : "153",
+ 	"max" : "343",
 	"mid" : "789, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "SS"   >: 153   <: 343
+ "category : "SS"   >:    <: 
+  	"min" : "153",
+ 	"max" : "343",
 	"mid" : "798, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "SS"   : 343
+ "category : "SS",
+  	"min" : "343",
+ 	"max" : "343",
 	"mid" : "819, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "G"   >: 1   <: 294
+ "category : "G"   >:    <: 
+  	"min" : "1",
+ 	"max" : "294",
 	"mid" : "856, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "G"   >: 295   <: 393
+ "category : "G"   >:    <: 
+  	"min" : "295",
+ 	"max" : "393",
 	"mid" : "876, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "G"   >: 230   <: 368
+ "category : "G"   >:    <: 
+  	"min" : "230",
+ 	"max" : "368",
 	"mid" : "915, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PP"   >: 156   <: 189
+ "category : "PP"   >:    <: 
+  	"min" : "156",
+ 	"max" : "189",
 	"mid" : "934, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PP"   >: 99   <: 155
+ "category : "PP"   >:    <: 
+  	"min" : "99",
+ 	"max" : "155",
 	"mid" : "970, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PP"   >: 190   <: 232
+ "category : "PP"   >:    <: 
+  	"min" : "190",
+ 	"max" : "232",
 	"mid" : "989, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PP"   >: 1   <: 99
+ "category : "PP"   >:    <: 
+  	"min" : "1",
+ 	"max" : "99",
 	"mid" : "1022, 238",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PP"   >: 233   <: 399
+ "category : "PP"   >:    <: 
+  	"min" : "233",
+ 	"max" : "399",
 	"mid" : "1038, 238",
   	"color" : "#81649C", //violet
   	"floor" : "5"
@@ -100,145 +128,193 @@
 
 5th floor Exit side
 
- "category : "PS-PR"   >: 571   <: 581
+ "category : "PS-PR"   >:   <: 
+  	"min" : "571",
+ 	"max" : "581",
 	"mid" : "351, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
 	
- "category : "PS-PR"   >: 543   <: 571
+ "category : "PS-PR"   >:    <: 
+  	"min" : "543",
+ 	"max" : "571",
 	"mid" : "342, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
 	
- "category : "PS-PR"   >: 509   <: 543
+ "category : "PS-PR"   >:    <: 
+  	"min" : "509",
+ 	"max" : "543",
     "mid" : "321, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "La-PR"   >: 401   <: 508
+ "category : "La-PR"   >:    <: 
+  	"min" : "401",
+ 	"max" : "508",
 	"mid" : "312, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
 
- "category : "PS"   >: 582   <: 599
+ "category : "PS"   >:    <: 
+  	"min" : "582",
+ 	"max" : "599",
     "mid" : "291, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 577   <: 581
+ "category : "PS"   >:    <: 
+  	"min" : "577",
+ 	"max" : "581",
 	"mid" : "282, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PS"   >: 572   <: 576
+ "category : "PS"   >:    <: 
+  	"min" : "572",
+ 	"max" : "576",
     "mid" : "262, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 552   <: 571
+ "category : "PS"   >:    <: 
+  	"min" : "552",
+ 	"max" : "571",
 	"mid" : "253, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PS"   >: 547   <: 551
+ "category : "PS"   >:    <: 
+  	"min" : "547",
+ 	"max" : "551",
     "mid" : "233, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 543   <: 547
+ "category : "PS"   >:    <: 
+  	"min" : "543",
+ 	"max" : "547",
 	"mid" : "224, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PS"   >: 530   <: 543
+ "category : "PS"   >:    <: 
+  	"min" : "530",
+ 	"max" : "543",
     "mid" : "205, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 540   <: 539
+ "category : "PS"   >:    <: 
+  	"min" : "539",
+ 	"max" : "540",
 	"mid" : "196, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PS"   >: 531   <: 539
+ "category : "PS"   >:    <: 
+  	"min" : "531",
+ 	"max" : "539",
     "mid" : "177, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 520   <: 530
+ "category : "PS"   >:    <: 
+  	"min" : "520",
+ 	"max" : "530",
 	"mid" : "168, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PS"   >: 516   <: 519
+ "category : "PS"   >:    <: 
+  	"min" : "516",
+ 	"max" : "519",
     "mid" : "149, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 513   <: 515
+ "category : "PS"   >:    <: 
+  	"min" : "513",
+ 	"max" : "515",
 	"mid" : "140, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PS"   >: 511   <: 513
+ "category : "PS"   >:    <: 
+  	"min" : "511",
+ 	"max" : "513",
     "mid" : "119, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PS"   >: 505   <: 510
+ "category : "PS"   >:    <: 
+  	"min" : "505",
+ 	"max" : "510",
 	"mid" : "110, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "La"   >: 428   <: 501
+ "category : "La"   >:    <: 
+  	"min" : "428",
+ 	"max" : "501",
     "mid" : "92, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "La"   >: 410   <: 428
+ "category : "La"   >:    <: 
+  	"min" : "410",
+ 	"max" : "428",
 	"mid" : "83, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "PSR"   >: 530   <: 599
+ "category : "PSR"   >:    <: 
+  	"min" : "530",
+ 	"max" : "599",
     "mid" : "64, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "PSR"   >: 500   <: 529
+ "category : "PSR"   >:    <: 
+  	"min" : "500",
+ 	"max" : "529",
 	"mid" : "55, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
 	
     
- "category : "La"   >: 401   <: 418
+ "category : "La"   >:    <: 
+  	"min" : "401",
+ 	"max" : "418",
     "mid" : "34, 237",
   	"color" : "#4F82B7", //blue
   	"floor" : "5"
 	
     
- "category : "LiR"   >: 410   <: 499
+ "category : "LiR"   >:    <: 
+  	"min" : "410",
+ 	"max" : "499",
 	"mid" : "25, 237",
   	"color" : "#81649C", //violet
   	"floor" : "5"
