@@ -1,4 +1,4 @@
-block  [
+block = [
 
 	// 6th floor
 		{
@@ -767,12 +767,18 @@ block  [
 	      "mid" : "1040, 140",                  
 	      "color" :"#4F82B7", //blue                
 	      "floor" : "6"
-	    }
+	    },
+
+	    //5th floor
+
+	    //4th floor
+
+
 ],
 
 
 
-range  [
+range = [
 	{
 		"category" : "AS",
 			"min" : "600", 
