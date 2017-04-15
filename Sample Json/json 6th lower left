@@ -5,7 +5,7 @@ block = [
 		"max" : "700",
 		"mid" : "348, 234";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "HGR", 
@@ -13,7 +13,7 @@ block = [
 		"max" : "994",
 		"mid" :"340, 234";
          "color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -21,7 +21,7 @@ block = [
 		"max" : "998",
 		"mid" :"318, 232";
 		"color" : "#4F82B7"; //blue
-		 "floor" : 6;
+		 "floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -29,7 +29,7 @@ block = [
 		"max" : "973",
 		"mid" :"308, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -37,7 +37,7 @@ block = [
 		"max" : "956",
 		"mid" :"284, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -45,7 +45,7 @@ block = [
 		"max" : "943",
 		"mid" :"274, 232";
 		 "color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -53,7 +53,7 @@ block = [
 		"max" : "940",
 		"mid" :"250, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -61,7 +61,7 @@ block = [
 		"max" : "930",
 		 "mid" :"240, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Hg", 
@@ -69,7 +69,7 @@ block = [
 		"max" : "910",
 		"mid" :"216, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -77,7 +77,7 @@ block = [
 		"max" : "897",
 		"mid" :"206, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -85,7 +85,7 @@ block = [
 		"max" : "843",
 		"mid" :"184, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -93,7 +93,7 @@ block = [
 		max" :   "824",
 		"mid" :"174, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -101,7 +101,7 @@ block = [
 		"max" : "823",
 		 "mid" :"152, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -109,7 +109,7 @@ block = [
 		"max" : "821",
 		"mid" :"142, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -117,7 +117,7 @@ block = [
 		"max" : "818",
 		"mid" :"122, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -125,7 +125,7 @@ block = [
 		"max" : "811",
 		"mid" :"112, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -133,7 +133,7 @@ block = [
 		"max" :  "809",
 		"mid" :"92, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li", 
@@ -141,7 +141,7 @@ block = [
 		"max" :  "809",
 		"mid" :"82, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "HG-PR", 
@@ -149,7 +149,7 @@ block = [
 		"max" : "974",
 		"mid" :"63, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "HG-PR", 
@@ -157,7 +157,7 @@ block = [
 		"max" : "973",
 		"mid" :"53, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Li-Pr", 
@@ -165,7 +165,7 @@ block = [
 		"max" : "910",
 		"mid" :"33, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : 6;
+		"floor" : "6"
 
 		},
 		"category" : "Ar-Pr", 
@@ -173,6 +173,6 @@ block = [
 		"max" : "809",
 		"mid" :"23, 232";
 		"color" : "#81649C"; //violet
-		"floor" : 6;
+		"floor" : "6"
 		},	
 		];
