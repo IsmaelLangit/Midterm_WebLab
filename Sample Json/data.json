@@ -1002,7 +1002,7 @@ block = [
         "floor" : "5"    
     },
     {
-        "category" : "SS" && num >: 343 && num <: 345) {
+        "category" : "SS",
         "min" : "343",
         "max" : "346",
         "mid" : "821, 141", 
@@ -1011,7 +1011,7 @@ block = [
     },
     
     {
-        "category" : "SS/F",
+        "category" : "F",
         "min" : "53",
         "max" : "1032",
         "mid" : "830, 141",
@@ -1057,7 +1057,7 @@ block = [
     },
 
     {
-        "category" : "SS" && num >: 323 && num <: 328) {
+        "category" : "SS",
         "min" : "323",
         "max" : "329",
         "mid" : "911, 141",
