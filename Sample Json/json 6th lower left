@@ -1,208 +1,243 @@
+block = [
+  {
+    "category" : "ASR",
+    "min" : "600", 
+    "max" : "611" ,            
+    "mid" : "678, 140",
+    "color" = "#81649C", //violet                  
+    "floor" : "6"
+  },
+  {
+    "category" : "ASR" 
+    "min" : "612", 
+    "max" : "618",                  
+    "mid" :"686, 140",      
+    "color" : "#4F82B7", //blue                                            
+    "floor" : "6"   
+  },
+  {
+   "category" : "AS", 
+    "min" : "618",
+    "max" : "619",                      
+    "mid" :"686, 140",                      
+    "color" : "#81649C", //violet                                          
+    "floor" : "6"
+},                           
+   
+     {
+     "category" : "AS", 
+    "min" : "618",
+                      "mid" : "720, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
 
-"category" : "ASR" 
-"min" : 600 
-"max" : 611)
-                  
-"mid" : "678, 140";
-                  color = "#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "ASR" 
-"min" : 612 
-"max" : 618)
-                  
-"mid" :"686, 140";
-                  
-"color" : "#4F82B7"; //blue
-                  
-                  
-"floor" : 6;             
-                
-"category" : "AS" 
-"min" : 618  && num < 619)
-                  
-"mid" :"686, 140";
-                  
-"color" : "#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 618  && num < 619)
-                  mid="720, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 618 && num < 619)
-                  mid="749, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 617 
-"max" : 618)
-                  mid="757, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 617 && num < 618)
-                  mid="784, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 
-"max" : 617)
-                  mid="792, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="818, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="826, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="854, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="864, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="888, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="897, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="925, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "AS" 
-"min" : 616 && num < 617)
-                  mid="934, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "As-Pr" 
-"min" : 617 
-"max" : 618)
-                  mid="960, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "As-Pr" 
-"min" : 616 
-"max" : 617)
-                  mid="968, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "As-Pr" 
-"min" : 616 && num < 617)
-                  mid="996, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "As-Pr" 
-"min" : 616 && num < 617)
-                  mid="1006, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
-                
-"category" : "As-Pr" 
-"min" : 614 
-"max" : 616)
-                  mid="1032, 140";
-                  
-"color" :"#81649C"; //violet
-                  
-                  
-"floor" : 6;
-                
-"category" : "As-Pr" 
-"min" : 610 
-"max" : 613)
-                  mid="1040, 140";
-                  
-"color" :"#4F82B7"; //blue
-                  
-                  
-"floor" : 6;
+   },               
+    
+    {
+    "category" : "AS", 
+    "min" : "618",
+    "max" : "619",
+                      "mid" : "749, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+  },                
+    
+      {
+      "category" : "AS", 
+    "min" : ""617", ", 
+    "max" : "618",
+                      "mid" : "757, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+    },              
+    
+    {"category" : "AS", 
+    "min" : ""617", ", 
+    "max" : "618",
+                      "mid" : "784, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+  },                
+    
+    {
+    "category" : "AS", 
+    "min" : ""616", ", 
+    "max" : ""617", ",
+                      "mid" : "792, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+  },             
+    
+    {
+    "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "818, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+  },                
+    
+     {
+     "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "826, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+   },               
+    
+    {
+    "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "854, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+  },                
+    
+     {
+     "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "864, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+   },               
+    
+     {
+     "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "888, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+   },               
+    
+     {
+     "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "897, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+   },               
+    
+    {
+    "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "925, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+  },                
+    
+    {
+    "category" : "AS", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "934, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+  },            
+    
+    {
+    "category" : "As-Pr", 
+    "min" : "617",  
+    "max" : 618
+                      "mid" : "960, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+  },                
+    
+     {
+     "category" : "As-Pr", 
+    "min" : "616",  
+    "max" : "617", 
+                      "mid" : "968, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+   },               
+    
+     {
+     "category" : "As-Pr", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "996, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+   },               
+    
+    {
+    "category" : "As-Pr", 
+    "min" : "616",  "max" : "617", 
+                      "mid" : "1006, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+  },             
+    
+     {
+     "category" : "As-Pr", 
+    "min" : "614",  
+    "max" : "616", 
+                      "mid" : "1032, 140",
+                      
+    "color" :"#81649C", //violet
+                      
+                      
+    "floor" : "6"
+   },               
+    
+      {
+      "category" : "As-Pr", 
+    "min" : "610",  
+    "max" : "613", 
+                      "mid" : "1040, 140",
+                      
+    "color" :"#4F82B7", //blue
+                      
+                      
+    "floor" : "6"
+    },              
+    ];
