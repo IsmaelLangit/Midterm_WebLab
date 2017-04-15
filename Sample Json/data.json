@@ -1,4 +1,6 @@
 block  [
+
+	// 6th floor
 		{
 		"category" : "LiR", 
 		"min" : "690", 
@@ -338,7 +340,7 @@ block  [
 		"mid" : "1040, 232",
 		"color" : "#4F82B7", //blue
 		"floor" : "6"
-		}
+		},
 
 		{
 		"category" : "ASR", 
@@ -765,8 +767,7 @@ block  [
 	      "mid" : "1040, 140",                  
 	      "color" :"#4F82B7", //blue                
 	      "floor" : "6"
-	    }, 
-
+	    }
 ],
 
 
@@ -944,4 +945,4 @@ range  [
 		"min" : "300", 
 		"max" : "352" 
 	} 
-],
+]
