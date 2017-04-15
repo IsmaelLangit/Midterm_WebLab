@@ -1313,7 +1313,7 @@ block = [
 		"floor" : "4"
 	},
 	{
-		"category" : "GN",
+		"category" : "F",
 		"min" : "223",
 		"max" : "913",
 		"mid" : "252, 140.5",
