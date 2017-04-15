@@ -1,4 +1,4 @@
-block[
+block = [
 		{
 		"category" : "LiR", 
 		"min" : "690", 
@@ -17,159 +17,160 @@ block[
 
 		},
 		"category" : "Hg", 
-		"min" : 973 
-		"max" : 998
+		"min" : ""973",", 
+		"max" : "998",
 		"mid" :"318, 232";
 		"color" : "#4F82B7"; //blue
 		 "floor" : 6;
 
 		},
 		"category" : "Hg", 
-		"min" : 956 
-		"max" : 973
+		"min" : "956", 
+		"max" : "973",
 		"mid" :"308, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Hg", 
-		"min" : 943 
-		"max" : 956
+		"min" : "943", 
+		"max" : "956",
 		"mid" :"284, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Hg", 
-		"min" : 940 
-		"max" : 943
+		"min" : "940", 
+		"max" : "943",
 		"mid" :"274, 232";
 		 "color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Hg", 
-		"min" : 930 
-		"max" : 940
+		"min" : "930", 
+		"max" : "940",
 		"mid" :"250, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Hg", 
-		"min" : 910 
-		"max" : 930
+		"min" : "910", 
+		"max" : "930",
 		 "mid" :"240, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Hg", 
-		"min" : 900 
-		"max" : 910
+		"min" : "900", 
+		"max" : "910",
 		"mid" :"216, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" :  843 
-		"max" : 897
+		"min" :  "843", 
+		"max" : "897",
 		"mid" :"206, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 823 
-		"max" : 843
+		"min" : "823", 
+		"max" : "843",
 		"mid" :"184, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 823 "max" :   824
+		"min" : "823", 
+		max" :   "824",
 		"mid" :"174, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 821 
-		"max" : 823
+		"min" : "821", 
+		"max" : "823",
 		 "mid" :"152, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 818 
-		"max" : 821
+		"min" : "818", 
+		"max" : "821",
 		"mid" :"142, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 811 
-		"max" : 818
+		"min" : "811", 
+		"max" : "818",
 		"mid" :"122, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 808 
-		"max" : 811
+		"min" : "808", 
+		"max" : "811",
 		"mid" :"112, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 808 
-		"max" :  809
+		"min" : "808", 
+		"max" :  "809",
 		"mid" :"92, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Li", 
-		"min" : 808 
-		"max" :  809
+		"min" : "808", 
+		"max" :  "809",
 		"mid" :"82, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "HG-PR", 
-		"min" : 973 
-		"max" : 974
+		"min" : "973", 
+		"max" : "974",
 		"mid" :"63, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "HG-PR", 
-		"min" : 910 
-		"max" : 973
+		"min" : "910", 
+		"max" : "973",
 		"mid" :"53, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
 
 		},
 		"category" : "Li-Pr", 
-		"min" : 809 
-		"max" : 910
+		"min" : "809", 
+		"max" : "910",
 		"mid" :"33, 232";
 		"color" : "#4F82B7"; //blue
 		"floor" : 6;
 
 		},
 		"category" : "Ar-Pr", 
-		"min" : 746 
-		"max" : 809
+		"min" : "746", 
+		"max" : "809",
 		"mid" :"23, 232";
 		"color" : "#81649C"; //violet
 		"floor" : 6;
