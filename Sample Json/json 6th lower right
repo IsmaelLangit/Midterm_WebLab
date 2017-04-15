@@ -3,145 +3,145 @@ block = [
 		},
 		{
 		"category" : "AS" 
-		"min" : 600 
-		"max" := 610
+		"min" : "600", 
+		"max" := "610",
 		"mid" : "783, 234";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 							
 		},
 		{
 		"category" : "AS" 
-		"min" : 610 
-		"max" : 611
+		"min" : "610", 
+		"max" : "611",
 		"mid" : "793, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 610 
-		"max" : 611
+		"min" : "610", 
+		"max" : "611",
 		"mid" : "818, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 610 
-		"max" : 611
+		"min" : "610", 
+		"max" : "611",
 		"mid" : "828, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 610 
-		"max" : 611
+		"min" : "610", 
+		"max" : "611",
 		"mid" : "854, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 610 
-		"max" := 611
+		"min" : "610", 
+		"max" := "611",
 		"mid" : "864, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 611 
-		"max" := 612
+		"min" : "611", 
+		"max" := "612",
 		"mid" : "888, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 612 
-		"max" : 613
+		"min" : "612", 
+		"max" : "613",
 		"mid" : "898, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 612 
-		"max" : 613
+		"min" : "612", 
+		"max" : "613",
 		"mid" : "925, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 612 
-		"max" := 613
+		"min" : "612", 
+		"max" := "613",
 		"mid" : "934, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 613 
-		"max" : 614
+		"min" : "613", 
+		"max" : "614",
 		"mid" : "959, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 613 
-		"max" := 615
+		"min" : "613", 
+		"max" := "615",
 		"mid" : "969, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 615 
-		"max" : 616
+		"min" : "615", 
+		"max" : "616",
 		"mid" : "996, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 615 
-		"max" : 616
+		"min" : "615", 
+		"max" : "616",
 		"mid" : "1005, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 615 
-		"max" : 616
+		"min" : "615", 
+		"max" : "616",
 		"mid" : "1030, 232";
 		"color" : "#81649C"; //violet
-		"floor" : "6",
+		"floor" : "6"
 
 		},
 		{
 		"category" : "AS" 
-		"min" : 615 
-		"max" : 616
+		"min" : "615", 
+		"max" : "616",
 		"mid" : "1040, 232";
 		"color" : "#4F82B7"; //blue
-		"floor" : "6",
+		"floor" : "6"
 		}
 ];
