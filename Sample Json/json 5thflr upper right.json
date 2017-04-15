@@ -1,0 +1,109 @@
+block = [
+	{
+		"category" : "SS",
+		"min" : "373",
+		"max" : "375",
+        	"mid" : "137, 143",
+		"color" : "#81649C", //violet
+       		 "floor" : "5"
+	},
+	{
+		"category" : "SS",
+		"min" : "370",
+		"max" : "375",
+		"mid" : "146, 143",
+		"color" : "#4F82B7",
+      		"floor" : "5"
+	},
+	{
+        "category" : "SS", 
+        "min" : "360",
+        "max" : "375",
+        "mid" : "170,143",
+        "color" : "#81649C",
+        "floor" : "5"
+    },
+    {
+          "category" : "SS",
+          "min" : "378",
+          "max" : "389",
+          "mid" : "179,143",
+          "color" : "#4F82B7",
+          "floor" : "5"
+    },
+    {
+            "category" : "SS",
+            "min" : "372",
+            "max" : "389" ,
+            "mid" : "201, 143",
+            "color" : "#81649C", //violet
+            "floor" : "5"
+        
+        
+    },
+    {
+        "category": "SS",
+        "min" : "372",
+        "max" : "373",
+        "mid" : "210, 143",
+        "color" : "#4F82B7", //blue
+        "floor" : "5"
+    },
+    {
+        "category" : "SS",
+        "min" : "371",
+        "max" : "373",
+        "mid" : "235, 143",
+        "color" : "#81649C" ,//violet
+		"floor" : "5"
+        
+    },
+    {  
+        "category" : "SS",
+        "min" : "371",
+        "max" : "372",
+        "mid" : "244, 143",
+        "color" :"#4F82B7", //blue
+        "valid" : true,
+        "floor" : "5"
+        
+    },
+    {
+        "category" : "SS" ,
+        "min" : "371",
+        "max" : "372",
+        "mid" : "269, 143",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+        
+    },
+    {
+        "category" : "SS" ,
+        "min" : "370",
+        "max" : "371",
+		"mid" : "278, 143",
+		"color" :"#4F82B7", //blue
+        "floor" : "5"
+       
+    },
+	{
+          
+        "category" : "SS",
+        "min" : "364",
+        "max" : "371",
+        "mid" : "303, 143",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+				
+    },
+    
+    {
+        "category" : "SS" ,
+        "min" : "362",
+        "max" : "363",
+        "mid" : "312, 143",
+        "color" :"#4F82B7", //blue
+        "floor" : 5
+    },
+  
+];
