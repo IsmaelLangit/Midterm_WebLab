@@ -190,3 +190,20 @@ footer img{
   font-size: 16px;
   margin: 0;
 }
+
+@media (max-width: 600px) {
+
+  .footerCenter{
+    padding: 20px;
+  }
+
+  .footerCenter .footerImg{
+    width: 150px;
+  }
+
+  .footerCenter .footerName{
+    font-size: 14px;
+  }
+}
+
+
