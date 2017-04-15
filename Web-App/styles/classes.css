@@ -155,13 +155,9 @@
 }
 
 /* footer */
-footer {
-	clear: both;
-	background : #000000;
-	color : #ffffff;
-	padding: 3px;
-	text-align: center;
-	font-size : 2.5vmin;
+footer{
+  position: fixed;
+  bottom: 0;
 }
 
 footer img{
@@ -169,3 +165,28 @@ footer img{
 	align-content: center;
 }
 
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+
+.footerCenter{
+  background-color: #0f0f0f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 16px sans-serif;
+  padding: 15px;
+}
+
+.footerCenter .footerImg{
+  width: 150px;
+  margin: 0;
+}
+
+.footerCenter .footerName{
+  color:  #8f9296;
+  font-size: 16px;
+  margin: 0;
+}
