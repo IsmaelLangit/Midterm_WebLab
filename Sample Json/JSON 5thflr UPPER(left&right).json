@@ -1,0 +1,401 @@
+block = [ 
+{
+        "category" : "SS" && num >: 343 && num <: 345) {
+        "min" : "343",
+        "max" : "346",
+        "mid" : "821, 141", 
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS/F",
+        "min" : "53",
+        "max" : "1032",
+        "mid" : "830, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+    
+    {
+        "category" : "SS/G",
+        "min" : "340",
+        "max" : "343",
+        "mid" : "850, 141",
+	    "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+	{
+        "category" : "SS/M",
+        "min" : "338",
+        "max" : "339",
+        "mid" : "859, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+    
+   {
+       "category" : "SS/B-D",
+        "min" : "330",
+        "max" : "337",
+        "mid" : "880, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    
+    },
+    
+    {
+        "category" : "SS/C",
+        "min" : "328",
+        "max" : "333",
+        "mid" : "889, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+
+    {
+        "category" : "SS" && num >: 323 && num <: 328) {
+        "min" : "323",
+        "max" : "329",
+        "mid" : "911, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS/F",
+        "min" : "328",
+        "max" : "331",
+        "mid" : "920, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+
+    {
+        "category" : "SS",
+        "min" : "320",
+        "max" : "324",
+        "mid" : "939, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS Ei",
+        "min" : "305",
+        "max" : "307",
+        "mid" : "948, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+    
+    {
+        "category" : "SS/T",
+        "min" : "301",
+        "max" : "303",
+        "mid" : "968, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "Re" ,
+        "min" : "302",
+        "max" : "306",
+        "mid" : "977, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+    
+    {
+        "category" : "Re",
+        "min" : "300",
+        "max" : "301",
+		"mid" : "995, 141",
+		"color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+	{
+        "category" : "Re",
+        "min" : "282",
+        "max" : "300",
+        "mid" : "1004, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+    
+	{
+        "category" : "Re" ,
+        "min" : "268",
+        "max" : "271",
+        "mid" : "1023, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "Re",
+        "min" : "261",
+        "max" : "267",
+        "mid" : "1032, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    }, 
+    
+	{
+        "category" : "Re",
+        "min" : "253",
+        "max" : "262",
+        "mid" : "104, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    
+    },
+    
+	{
+        "category" : "Re" ,
+        "min" : "242",
+        "max" : "249",
+        "mid" : "1057, 141";
+		"color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+
+
+	{
+        "category" : "SS",
+        "min" : "361",
+        "max" : "363",
+	"mid" : "336, 143",
+        "color" :"#81649C",               
+	"floor" : "5"
+    },
+    
+    {
+    
+        "category" : "SS-PR",
+        "min" : "333",
+        "max" : "353",
+        "mid" : "345, 143",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+    
+    {
+        "category" : "SS-PR",
+        "min" : "320",
+        "max" : "331",
+		"mid" : "367, 143",
+		"color" :"#81649C",
+        "floor" : "5";
+    },
+    
+    {
+        "category" : "SS-PR",
+        "min" : "300",
+        "max" : "316",
+		"mid" : "376, 143",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SSG-PR" ,
+        "min" : "340",
+        "max" : "379",
+        "mid" : "671, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS-PR",
+        "min" : "325",
+        "max" : "341",
+        "mid" : "681, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"
+    },
+    
+	{
+        "category" : "SSG-PR",
+        "min" : "340",
+        "max" : "349",
+        "mid" : "701, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS",
+        "min" : "512",
+        "max" : "739",
+        "mid" : "710, 141",
+        "color" :"#4F82B7",//blue
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS" ,
+        "min" : "280",
+        "max" : "513",
+        "mid" : "731, 141",
+        "color" :"#81649C",//violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS",
+        "min" : "55",
+        "max" : "281",
+        "mid" : "740, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"
+    },
+    {
+        "category" : "SS" ,
+        "min" : "1",
+        "max" : "510",
+        "mid" : "763, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+    {
+        "category" : "SS",
+        "min" : "347",
+        "max" : "350",
+        "mid" : "772, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"
+    },
+    
+	{
+        "category" : "SS",
+        "min" : "346",
+        "max" : "437",
+		"mid" : "793, 141",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+    },
+    
+	{
+        "category" : "SS",
+        "min" : "345", 
+        "max" : "347",
+        "mid" : "802, 141",
+        "color" :"#4F82B7", //blue
+        "floor" : "5"    
+    },
+
+	{
+		"category" : "SS",
+		"min" : "373",
+		"max" : "375",
+        	"mid" : "137, 143",
+		"color" : "#81649C", //violet
+       		 "floor" : "5"
+	},
+	{
+		"category" : "SS",
+		"min" : "370",
+		"max" : "375",
+		"mid" : "146, 143",
+		"color" : "#4F82B7",
+      		"floor" : "5"
+	},
+	{
+        "category" : "SS", 
+        "min" : "360",
+        "max" : "375",
+        "mid" : "170,143",
+        "color" : "#81649C",
+        "floor" : "5"
+    },
+    {
+          "category" : "SS",
+          "min" : "378",
+          "max" : "389",
+          "mid" : "179,143",
+          "color" : "#4F82B7",
+          "floor" : "5"
+    },
+    {
+            "category" : "SS",
+            "min" : "372",
+            "max" : "389" ,
+            "mid" : "201, 143",
+            "color" : "#81649C", //violet
+            "floor" : "5"
+        
+        
+    },
+    {
+        "category": "SS",
+        "min" : "372",
+        "max" : "373",
+        "mid" : "210, 143",
+        "color" : "#4F82B7", //blue
+        "floor" : "5"
+    },
+    {
+        "category" : "SS",
+        "min" : "371",
+        "max" : "373",
+        "mid" : "235, 143",
+        "color" : "#81649C" ,//violet
+		"floor" : "5"
+        
+    },
+    {  
+        "category" : "SS",
+        "min" : "371",
+        "max" : "372",
+        "mid" : "244, 143",
+        "color" :"#4F82B7", //blue
+        "valid" : true,
+        "floor" : "5"
+        
+    },
+    {
+        "category" : "SS" ,
+        "min" : "371",
+        "max" : "372",
+        "mid" : "269, 143",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+        
+    },
+    {
+        "category" : "SS" ,
+        "min" : "370",
+        "max" : "371",
+		"mid" : "278, 143",
+		"color" :"#4F82B7", //blue
+        "floor" : "5"
+       
+    },
+	{
+          
+        "category" : "SS",
+        "min" : "364",
+        "max" : "371",
+        "mid" : "303, 143",
+        "color" :"#81649C", //violet
+        "floor" : "5"
+				
+    },
+    
+    {
+        "category" : "SS" ,
+        "min" : "362",
+        "max" : "363",
+        "mid" : "312, 143",
+        "color" :"#4F82B7", //blue
+        "floor" : 5
+    },
+  
+];
+
