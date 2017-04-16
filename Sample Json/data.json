@@ -1167,7 +1167,7 @@ block = [
 
     	//5th floor lower
 	{
-	 "category : "GR",
+	 "category" : "GR",
 		"min" : "264",
 	    "max" : "294",
 		"mid" : "732, 238",
@@ -1175,7 +1175,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{	
-	 "category : "Re",
+	 "category" : "Re",
 	 	"min" : "264",
 	 	"max" : "294",
 		"mid" : "741, 238",
@@ -1183,7 +1183,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "GR",
+	 "category" : "GR",
 	  	"min" : "1998",
 	 	"max" : "1998",
 	    "mid" : "759, 238",
@@ -1191,7 +1191,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{ 
-	 "category : "PPR",
+	 "category" : "PPR",
 	  	"min" : "230",
 	 	"max" : "230",
 		"mid" : "768, 238",
@@ -1199,7 +1199,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PPR",
+	 "category" : "PPR",
 	  	"min" : "153",
 	 	"max" : "343",
 		"mid" : "789, 238",
@@ -1207,7 +1207,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "SS",
+	 "category" : "SS",
 	  	"min" : "153",
 	 	"max" : "343",
 		"mid" : "798, 238",
@@ -1215,7 +1215,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "SS",
+	 "category" : "SS",
 	  	"min" : "343",
 	 	"max" : "343",
 		"mid" : "819, 238",
@@ -1223,7 +1223,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "G",
+	 "category" : "G",
 	  	"min" : "1",
 	 	"max" : "294",
 		"mid" : "856, 238",
@@ -1231,7 +1231,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "G",
+	 "category ": "G",
 	  	"min" : "295",
 	 	"max" : "393",
 		"mid" : "876, 238",
@@ -1239,7 +1239,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "G",
+	 "category" : "G",
 	  	"min" : "230",
 	 	"max" : "368",
 		"mid" : "915, 238",
@@ -1247,7 +1247,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PP",
+	 "category" : "PP",
 	  	"min" : "156",
 	 	"max" : "189",
 		"mid" : "934, 238",
@@ -1255,7 +1255,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PP",
+	 "category" : "PP",
 	  	"min" : "99",
 	 	"max" : "155",
 		"mid" : "970, 238",
@@ -1263,7 +1263,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PP",
+	 "category" : "PP",
 	  	"min" : "190",
 	 	"max" : "232",
 		"mid" : "989, 238",
@@ -1271,7 +1271,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PP",
+	 "category" : "PP",
 	  	"min" : "1",
 	 	"max" : "99",
 		"mid" : "1022, 238",
@@ -1279,7 +1279,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PP",
+	 "category" : "PP",
 	  	"min" : "233",
 	 	"max" : "399",
 		"mid" : "1038, 238",
@@ -1287,7 +1287,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS-PR",
+	 "category" : "PS-PR",
 	  	"min" : "571",
 	 	"max" : "581",
 		"mid" : "351, 237",
@@ -1295,7 +1295,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS-PR",
+	 "category" : "PS-PR",
 	  	"min" : "543",
 	 	"max" : "571",
 		"mid" : "342, 237",
@@ -1303,7 +1303,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS-PR",
+	 "category" : "PS-PR",
 	  	"min" : "509",
 	 	"max" : "543",
 	    "mid" : "321, 237",
@@ -1311,7 +1311,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "La-PR",
+	 "category" : "La-PR",
 	  	"min" : "401",
 	 	"max" : "508",
 		"mid" : "312, 237",
@@ -1319,7 +1319,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "582",
 	 	"max" : "599",
 	    "mid" : "291, 237",
@@ -1327,7 +1327,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "577",
 	 	"max" : "581",
 		"mid" : "282, 237",
@@ -1335,7 +1335,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "572",
 	 	"max" : "576",
 	    "mid" : "262, 237",
@@ -1343,7 +1343,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "552",
 	 	"max" : "571",
 		"mid" : "253, 237",
@@ -1351,7 +1351,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "547",
 	 	"max" : "551",
 	    "mid" : "233, 237",
@@ -1359,7 +1359,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "543",
 	 	"max" : "547",
 		"mid" : "224, 237",
@@ -1367,7 +1367,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "530",
 	 	"max" : "543",
 	    "mid" : "205, 237",
@@ -1375,7 +1375,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "539",
 	 	"max" : "540",
 		"mid" : "196, 237",
@@ -1383,7 +1383,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "531",
 	 	"max" : "539",
 	    "mid" : "177, 237",
@@ -1391,7 +1391,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "520",
 	 	"max" : "530",
 		"mid" : "168, 237",
@@ -1399,7 +1399,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "516",
 	 	"max" : "519",
 	    "mid" : "149, 237",
@@ -1407,7 +1407,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "513",
 	 	"max" : "515",
 		"mid" : "140, 237",
@@ -1415,7 +1415,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "511",
 	 	"max" : "513",
 	    "mid" : "119, 237",
@@ -1423,7 +1423,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PS",
+	 "category" : "PS",
 	  	"min" : "505",
 	 	"max" : "510",
 		"mid" : "110, 237",
@@ -1431,7 +1431,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "La",
+	 "category" : "La",
 	  	"min" : "428",
 	 	"max" : "501",
 	    "mid" : "92, 237",
@@ -1439,7 +1439,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "La",
+	 "category" : "La",
 	  	"min" : "410",
 	 	"max" : "428",
 		"mid" : "83, 237",
@@ -1447,7 +1447,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PSR",
+	 "category" : "PSR",
 	  	"min" : "530",
 	 	"max" : "599",
 	    "mid" : "64, 237",
@@ -1455,7 +1455,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "PSR",
+	 "category" : "PSR",
 	  	"min" : "500",
 	 	"max" : "529",
 		"mid" : "55, 237",
@@ -1463,7 +1463,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "La",
+	 "category" : "La",
 	  	"min" : "401",
 	 	"max" : "418",
 	    "mid" : "34, 237",
@@ -1471,7 +1471,7 @@ block = [
 	  	"floor" : "5"
 	},
 	{
-	 "category : "LiR",
+	 "category" : "LiR",
 	  	"min" : "410",
 	 	"max" : "499",
 		"mid" : "25, 237",
@@ -1480,10 +1480,8 @@ block = [
 	},
 
 	    //4th floor
-
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference",
 		"min" : "305",
 		"max" : "960",
 		"mid" : "157.5, 228, 174.5, 228",
@@ -1492,7 +1490,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference",
 		"min" : "378",
 		"max" : "900",
 		"mid" : "157.5, 252, 174.5, 252",
@@ -1501,7 +1498,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference",
 		"min" : "359",
 		"max" : "960",
 		"mid" : "157.5, 262, 174.5, 262",
@@ -1510,7 +1506,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference",
 		"min" : "323",
 		"max" : "960",
 		"mid" : "157.5, 279, 174.5, 279",
@@ -1519,7 +1514,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference",
 		"min" : "959",
 		"max" : "960",
 		"mid" : "157.5, 289, 174.5, 289",
@@ -1528,7 +1522,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference/SLU Collection",
 		"min" : "759",
 		"max" : "960",
 		"mid" : "157.5, 309, 174.5, 309",
@@ -1537,7 +1530,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference/SLU Collection",
 		"min" : "499",
 		"max" : "760",
 		"mid" : "157.5, 319, 174.5, 319",
@@ -1546,7 +1538,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference/Cordillera Books",
 		"min" : "315",
 		"max" : "500",
 		"mid" : "157, 334, 174.5, 334",
@@ -1555,7 +1546,6 @@ block = [
 	},
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference/Cordillera Books",
 		"min" : "1",
 		"max" : "316",
 		"mid" : "157.5, 342, 174.5, 342",
@@ -1564,7 +1554,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Filipiniana General Collection",
 		"min" : "551",
 		"max" : "900",
 		"mid" : "159, 296, 128, 296",
@@ -1573,7 +1562,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Filipiniana General Collection",
 		"min" : "551",
 		"max" : "900",
 		"mid" : "161, 305, 130, 305",
@@ -1582,7 +1570,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Filipiniana General Collection",
 		"min" : "899",
 		"max" : "960",
 		"mid" : "161, 322, 130, 322",
@@ -1591,7 +1578,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Filipiniana General Collection",
 		"min" : "899",
 		"max" : "960",
 		"mid" : "161, 331, 130, 331",
@@ -1600,7 +1586,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Rizal Books",
 		"min" : "959",
 		"max" : "960",
 		"mid" : "157.5, 280.8, 8 ,280.8",
@@ -1609,7 +1594,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Rizal Books",
 		"min" : "959",
 		"max" : "960",
 		"mid" : "161, 343.5, 7, 343.5",
@@ -1618,7 +1602,6 @@ block = [
 	},
 	{
 		"category" : "GN",
-		"subsection" : "General Novel",
 		"min" : "688",
 		"max" : "9685",
 		"mid" : "292, 140.5",
@@ -1627,7 +1610,6 @@ block = [
 	},
 	{
 		"category" : "GN",
-		"subsection" : "General Novel",
 		"min" : "658",
 		"max" : "1635",
 		"mid" : "284, 140.5",
@@ -1636,7 +1618,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Fiction",
 		"min" : "599",
 		"max" : "9941",
 		"mid" : "261, 140.5",
@@ -1645,7 +1626,6 @@ block = [
 	},
 	{
 		"category" : "F",
-		"subsection" : "Fiction",
 		"min" : "223",
 		"max" : "913",
 		"mid" : "252, 140.5",
