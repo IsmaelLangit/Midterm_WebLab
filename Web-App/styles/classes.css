@@ -11,6 +11,26 @@
 	height: 100vh;
 }
 
+/*Return to Top*/
+#myBtn {
+    display: none;
+    width: auto; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.80); 
+    color: white;
+    cursor: pointer; 
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px; 
+}
+
+
 .about-page, .contact-page {
 	background-color: #eff5f5;
 	height: 100vh;
