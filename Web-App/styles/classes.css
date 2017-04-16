@@ -57,72 +57,6 @@
     background-color: rgba(8, 95, 145, 0.8);
 }
 
-.about-page, .contact-page {
-	background-color: #eff5f5;
-	display: inline-block;
-	padding: 0 10%;
-}
-
-/*Bouncing Arrow*/
-
-/*ARROW BOUNCE ANIMATION FOR MOZILLA */
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-/*ARROW BOUNCE ANIMATION FOR APPLE/SAFARI */
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
 /* top-page */
 #logotitle {
 	width: 18%;
@@ -130,13 +64,11 @@
 	padding-top :8%;
 }
 
-
-
 /* about-page */
-.about-page {
-	padding: 0 10%;
+.about-page{
+  display: inline-block;
+  padding: 50px;
 }
-
 #easy, #interactive {
 	width: 50%;
 	float: left;
@@ -144,8 +76,8 @@
 
 #easy-logo, #interactive-logo {
 	width: 35%;
-    height: auto;
-    margin : 0 32.5%;
+  height: auto;
+  margin : 0 32.5%;
 }
 
 
@@ -178,22 +110,6 @@
 	margin : 20px 10%;
 }
 
-
-/* contact-page */
-.contact-page {
-	padding: 0 8%;
-}
-
-#email, #message, #call, #fb {
-	width: 25%;
-	float: left;
-}
-
-#email-icon, #message-icon, #call-icon, #fb-icon {
-	width: 30%;
-    height: auto;
-    margin : 0 32.5%;
-}
 
 /* footer */
 footer{
