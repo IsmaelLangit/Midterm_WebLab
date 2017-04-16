@@ -60,14 +60,18 @@
 /* top-page */
 #logotitle {
 	width: 18%;
-    height: auto;
+  height: auto;
 	padding-top :8%;
 }
 
 /* about-page */
 .about-page{
   display: inline-block;
-  padding: 50px;
+  margin-top: -50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #easy, #interactive {
 	width: 50%;
