@@ -1480,10 +1480,15 @@ block = [
 	},
 
 	    //4th floor
-
+	{
+		"category" : "F",
+		"mid" : "357.4, 282.8, 366.4, 283.8",
+		"color" : "#4F82B7",
+		"floor" : "4"
+	},
+		
 	{
 		"category" : "FR",
-		"subsection" : "Filipiniana Reference",
 		"min" : "305",
 		"max" : "960",
 		"mid" : "157.5, 228, 174.5, 228",
