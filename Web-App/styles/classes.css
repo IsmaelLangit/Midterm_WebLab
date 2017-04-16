@@ -63,12 +63,7 @@
 	padding: 0 10%;
 }
 
-.arrow {
-	width: 2%;
-	height: auto;
-	margin: 2.5% 48.25% 0 48.25%;
-	clear: both;
-}
+/*Bouncing Arrow*/
 
 /*ARROW BOUNCE ANIMATION FOR MOZILLA */
 @-moz-keyframes bounce {
