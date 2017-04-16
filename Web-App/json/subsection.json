@@ -337,5 +337,94 @@ block = [
                     "color" : "#81649C" //violet
     },
 
-                    
+    {
+                    "Subsection" : "American Politics and Government",
+                    "mid" : "939, 141",
+                    "color" : "#81649C"
+    },
+    {
+                    "Subsection" : "Criminal Law and Civil Code",
+                    "mid" : "802, 141",
+                    "color" : "#4F82B7"
+    },
+    {
+                    "Subsection" : "Educational Psychology",
+                    "mid" : "170, 143",
+                    "color" : "#81649C" 
+    },
+    {
+                    "Subsection" : "Encyclopedia and Books of Knowledge",
+                    "mid" : "759, 238",
+                    "color" : "#81649C"
+    },
+    {
+                    "Subsection" : "Environment and Society",
+                    "mid" : "880, 141",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "Generalities",
+                    "mid" : "934, 238",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "History of Education",
+                    "mid" : "146, 143",
+                    "color" : "#4F82B7"  
+    },
+    {
+                    "Subsection" : "Land Economics",
+                    "mid" : "345, 143",
+                    "color" : "#4F82B7"  
+    },
+    {
+                    "Subsection" : "Language",
+                    "mid" : "83, 237",
+                    "color" : "#81649C"
+    },
+    {
+                    "Subsection" : "Law and Official Gazette",
+                    "mid" : "671, 141",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "Law and Supreme Court Reports",
+                    "mid" : "701, 141",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "Mental Health",
+                    "mid" : "312, 143",
+                    "color" : "#4F82B7"  
+    },
+    {
+                    "Subsection" : "Philosophy and Psychology",
+                    "mid" : "915, 238",
+                    "color" : "#4F82B7"  
+    },
+    {
+                    "Subsection" : "Principles of Guidance Counseling",
+                    "mid" : "235, 143",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "Programming and Data Structures",
+                    "mid" : "876, 238",
+                    "color" : "#81649C"    
+    },
+    {        
+                    "Subsection" : "Pure Science Bound Periodicals",
+                    "mid" : "312, 237",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "Review Material(Engr Edu and Social Sciences",
+                    "mid" : "25, 237",
+                    "color" : "#81649C"  
+    },
+    {
+                    "Subsection" : "Subject Reference",
+                    "mid" : "55, 237",
+                    "color" : "#81649C"
+    },          
 ]

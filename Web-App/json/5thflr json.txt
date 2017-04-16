@@ -1,54 +1,90 @@
+		{
 		"subsection" : "American Politics and Government",
-		"mid" : "939, 141"
-		"color" : "#81649C" //violet
+		"mid" : "939, 141",
+		"color" : "#81649C"
+		},
+		{
 		"subsection" : "Criminal Law and Civil Code",
-		"mid" : "802, 141"
-		"color" : "#4F82B7" //blue 
+		"mid" : "802, 141",
+		"color" : "#4F82B7"
+		},
+		{
 		"subsection" : "Educational Psychology",
-		"mid" : "170, 143"
-		"color" : "#81649C"  
+		"mid" : "170, 143",
+		"color" : "#81649C" 
+		},
+		{
 		"subsection" : "Encyclopedia and Books of Knowledge",
-		"mid" : "759, 238"
+		"mid" : "759, 238",
 		"color" : "#81649C"
+		},
+		{
 		"subsection" : "Environment and Society",
-		"mid" : "880, 141"
+		"mid" : "880, 141",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "Generalities",
-		"mid" : "934, 238"
+		"mid" : "934, 238",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "History of Education",
-		"mid" : "146, 143"
+		"mid" : "146, 143",
 		"color" : "#4F82B7"  
+		},
+		{
 		"subsection" : "Land Economics",
-		"mid" : "345, 143"
+		"mid" : "345, 143",
 		"color" : "#4F82B7"  
+		},
+		{
 		"subsection" : "Language",
-		"mid" : "83, 237"
+		"mid" : "83, 237",
 		"color" : "#81649C"
+		},
+		{
 		"subsection" : "Law and Official Gazette",
-		"mid" : "671, 141"
+		"mid" : "671, 141",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "Law and Supreme Court Reports",
-		"mid" : "701, 141"
+		"mid" : "701, 141",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "Mental Health",
-		"mid" : "312, 143"
+		"mid" : "312, 143",
 		"color" : "#4F82B7"  
+		},
+		{
 		"subsection" : "Philosophy and Psychology",
-		"mid" : "915, 238"
+		"mid" : "915, 238",
 		"color" : "#4F82B7"  
+		},
+		{
 		"subsection" : "Principles of Guidance Counseling",
-		"mid" : "235, 143"
+		"mid" : "235, 143",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "Programming and Data Structures",
-		"mid" : "876, 238"
-		"color" : "#81649C"            
+		"mid" : "876, 238",
+		"color" : "#81649C"    
+		},
+		{        
 		"subsection" : "Pure Science Bound Periodicals",
-		"mid" : "312, 237"
+		"mid" : "312, 237",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "Review Material(Engr Edu and Social Sciences),
-		"mid" : "25, 237"
+		"mid" : "25, 237",
 		"color" : "#81649C"  
+		},
+		{
 		"subsection" : "Subject Reference",
-		"mid" : "55, 237"
+		"mid" : "55, 237",
 		"color" : "#81649C"
+		},
