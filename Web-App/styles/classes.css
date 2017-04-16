@@ -36,7 +36,7 @@
 
 .about-page, .contact-page {
 	background-color: #eff5f5;
-	height: 100vh;
+	display: inline-block;
 	padding: 0 10%;
 }
 
