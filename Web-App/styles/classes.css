@@ -90,6 +90,10 @@
 
 
 /* start-page */
+.start-page {
+    height: auto;
+    padding-bottom: 20px;
+}
 
 #callnum{
 	padding-top: 8vmin;
@@ -102,7 +106,7 @@
 }
 
 #form1 {
-	padding-top: 25vmin;
+	padding-top: 5vmin;
 	padding-bottom: 4vmin;
 }
 
@@ -115,7 +119,7 @@
 
 /* footer */
 footer{
-  clear: both;
+  position: fixed;
   bottom: 0;
 }
 
