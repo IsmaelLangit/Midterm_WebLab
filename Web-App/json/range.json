@@ -1,0 +1,174 @@
+range = [
+	{
+		"category" : "AS",
+			"min" : "600", 
+			"max" : "796"
+	},
+	{
+		"category" : "As-Pr",
+			"min" : "610", 
+			"max" : "618" 
+	},
+	{
+		"category" : "ASR",
+			"min" : "610", 
+			"max" : "618" 
+	},
+	{
+		"category" : "ArR",
+            "min" : "708", 
+			"max" : "709" 
+	},
+	{
+		"category" : "F",
+			"min" : "001", 
+			"max" : "959" 
+	},
+	{
+		"category" : "FIC",
+			"min" : "233", 
+			"max" : "9940" 
+	},
+	{
+		"category" : "G",
+		"min" : "20", 
+		"max" : "393" 
+
+	},
+	{
+		"category" : "GN",
+		"min" : "658", 
+		"max" : "9684" 
+
+	},
+	{
+		"category" : "GR",
+		"min" : "1998", 
+		"max" : "1998" 
+
+	},
+	{
+		"category" : "Hg",
+		"min" : "900", 
+		"max" : "998" 
+
+	},
+	{
+		"category" : "HgR",
+		"min" : "903", 
+		"max" : "912" 
+
+	},
+	{
+		"category" : "La",
+		"min" : "410", 
+		"max" : "495" 
+
+	},
+	{
+		"category" : "La-PR",
+		"min" : "410", 
+		"max" : "416" 
+
+	},
+	{
+		"category" : "Li",
+		"min" : "808", 
+		"max" : "897" 
+
+	},
+	{
+		"category" : "LiR",
+		"min" : "803", 
+		"max" : "860" 
+
+	},
+	{
+		"category" : "PP",
+		"min" : "100", 
+		"max" : "399" 
+
+	},
+	{
+		"category" : "PS",
+		"min" : "505", 
+		"max" : "599" 
+
+	},
+	{
+		"category" : "PS-PR",
+		"min" : "543", 
+		"max" : "595" 
+
+	},
+	{
+		"category" : "PSR",
+		"min" : "500", 
+		"max" : "599" 
+
+	},
+	{
+		"category" : "Re",
+		"min" : "210", 
+		"max" : "305" 
+
+	},
+	{
+		"category" : "SS",
+		"min" : "053", 
+		"max" : "738" 
+
+	},
+	{
+		"category" : "SS Ei",
+		"min" : "305", 
+		"max" : "307" 
+
+	},
+	{
+		"category" : "SS/B-D",
+		"min" : "330", 
+		"max" : "336" 	
+
+	},
+	{
+		"category" : "SS/C",
+		"min" : "328", 
+		"max" : "332" 
+
+	},
+	{
+		"category" : "SS/F",
+		"min" : "53", 
+		"max" : "1031" 
+
+	},
+	{
+		"category" : "SS/G",
+		"min" : "340", 
+		"max" : "342" 
+
+	},
+	{
+		"category" : "SS/M",
+		"min" : "338", 
+		"max" : "338" 
+
+	},
+	{
+		"category" : "SS/T",
+		"min" : "301", 
+		"max" : "302" 					
+	},
+	{
+		"category" : "SSG-PR",
+		"min" : "340", 
+		"max" : "378" 
+
+	},
+	{
+		"category" : "SS-PR",
+		"min" : "300", 
+		"max" : "352" 
+	} 
+]
