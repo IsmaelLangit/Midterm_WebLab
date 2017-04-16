@@ -87,16 +87,10 @@
 
 /* start-page */
 
-.left-content, .right-content {
-	width: 50%;
-	float: left;
-}
-
 #callnum{
 	padding-top: 8vmin;
-	width: 90%;
-	height: auto;
-	margin-right: 10%;
+	width: 80vmin;
+	height: auto;  
 }
 
 #text-search {
