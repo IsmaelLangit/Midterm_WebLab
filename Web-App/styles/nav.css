@@ -4,10 +4,10 @@ nav {
   margin:0;
   padding: 0;
   background-color: #000000;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
-  z-index: 123;
+  z-index: 10;
 }
 
 nav:after {
