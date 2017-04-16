@@ -54,3 +54,38 @@ nav a:hover {
 [id^=drop] {
   display: none;
 }
+
+
+/*----------For Responsiveness------------*/
+
+@media all and (max-width : 780px) {
+
+  #logo {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  .toggle + a,
+  .menu {
+    display: none;
+    text-align: center;
+  }
+
+  .toggle {
+    display: block;
+    background-color: #162d24;
+    padding:14px 20px;  
+    color:#FFF;
+    font-size:15px;
+    text-decoration:none;
+    border:none;
+    text-align: center;
+  }
+
+  .toggle:hover {
+    background-color: #254f3e;
+    cursor: pointer;
+  }
