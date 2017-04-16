@@ -30,6 +30,9 @@
     border-radius: 5px; 
 }
 
+#myBtn:hover {
+    background-color: rgba(8, 95, 145, 0.8);
+}
 
 .about-page, .contact-page {
 	background-color: #eff5f5;
