@@ -25,6 +25,11 @@ range = [
 			"max" : "959" 
 	},
 	{
+		"category" : "FR",
+			"min" : "1", 
+			"max" : "950" 
+	},
+	{
 		"category" : "FIC",
 			"min" : "233", 
 			"max" : "9940" 

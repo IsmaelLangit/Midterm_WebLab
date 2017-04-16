@@ -9,7 +9,11 @@
 	<Link rel="stylesheet" href="styles/typography.css" />
 	<Link rel="stylesheet" href="styles/floors.css" />
 	<Link rel="icon" href="images/icon/icon.png">
+	<script type="text/javascript" src="js/resultbutton.js"></script>
+	<script type="text/javascript" src="json/block.json"></script>
+	<script type="text/javascript" src="json/subsection.json"></script>
 </head>
+
 
 
 <body>
@@ -28,10 +32,6 @@
 </nav>
 
 <div class = "picture">
-
-
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg version="1.1">
 <g id="bgColor">
@@ -114,30 +114,6 @@
 	<line fill="none" stroke="#231F20" stroke-width="2" stroke-miterlimit="10" x1="606.2" y1="363.7" x2="606.2" y2="345.5"/>
 </g>
 
-<script>
-	function SetMid(end){
-		var start = "614.8,364.5 614.8,197";
-		var x = end.split(",").slice(0,1);
-		var y = start.split(",").slice(2);
-		var coor = " " + x + ", " + y + " "; 
-		return start + " " + coor + " " + end;
-		document.getElementsByTagName("polyline")[0].setAttribute("points", comb)
-	}
-
-	function Setcolor(c){
-		document.getElementsByTagName("polyline")[0].setAttribute("stroke", c);
-	}
-	
-	var mid = localStorage.getItem("mid");
-	var color = localStorage.getItem("color");
-
-	function result() {
-		SetMid (mid);
-		Setcolor(color)
-	}
-
-</script>
-
 	<polyline
 	class = "route"
 	fill="none"
@@ -148,24 +124,35 @@
 </svg>
 
 </div>
+
+<div class ="find-category">
+	<div class = "button">
+		<span> Book Finder Result :</span>
+		<button class = "btn" onclick="result(4)">RESULT</button>
+	</div>
+</div>
+
+
 <div class = "find-subsection">
     <form id="floor-form">
       <span id ="subsection-span">Subsection:</span>
       <select id="floor-mySelect">
-        <option value="cb">Cordillera Books</option>  
-        <option value="f">Fiction</option>  
-        <option value="fgc">Filipiniana General Collection</option>
-        <option value="fr">Filipiniana Reference</option>
-        <option value="gn">General Novel</option>
-        <option value="rb">Rizal Books</option>  
-        <option value="sluCollection">SLU Collection</option>  
-        <option value="t">Thesis</option>
+        <option value="Cordillera Books">Cordillera Books</option>  
+        <option value="Fiction">Fiction</option>  
+        <option value="Filipiniana General Collection">Filipiniana General Collection</option>
+        <option value="Filipiniana Reference">Filipiniana Reference</option>
+        <option value="General Novel">General Novel</option>
+        <option value="Rizal Books">Rizal Books</option>  
+        <option value="SLU Collection">SLU Collection</option>  
+        <option value="Thesis">Thesis</option>
       </select>
     </form>
 </div>
+
 <div class = "button">
-	<button class = "btn" onclick="result()">RESULT</button>
+	<button class = "btn" onclick="subsectionresult(4)">SHOW</button>
 </div>
+
 
 
 		<footer class="footerCenter">
@@ -174,27 +161,6 @@
 			<p class="footerName">Show Routes, Find Books &copy; 2017</p>
 
 		</footer>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
-
-<script type="text/javascript">
-	// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-
-function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-    document.documentElement.scrollTop = 0; // For IE and Firefox
-}
-</script>
 
 
 </body>

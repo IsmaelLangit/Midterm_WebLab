@@ -90,7 +90,12 @@ subsection = [
         "color" : "#4F82B7", //blue
         "floor" : "6"
     },
-
+    {
+        "subsection" : "History and Geography",
+        "mid" :"23, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
     //6th floor lower right
     {
         "subsection" : "Technical Drawing and Technology",
@@ -111,6 +116,18 @@ subsection = [
         "floor" : "6"
     },
     {
+        "subsection" : "Nursing Books",
+        "mid" : "828, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Nursing Books",
+        "mid" : "854, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
         "subsection" : "Human Anatomy",
         "mid" : "864, 232",
         "color" : "#4F82B7", //blue
@@ -120,6 +137,12 @@ subsection = [
         "subsection" : "Human Physiology",
         "mid" : "888, 232",
         "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Human Physiology",
+        "mid" : "898, 232",
+        "color" : "#4F82B7", //blue
         "floor" : "6"
     },
     {
@@ -137,6 +160,18 @@ subsection = [
     {
         "subsection" : "Pharmacology",
         "mid" : "959, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Pharmacology",
+        "mid" : "969, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Pharmacology",
+        "mid" : "996, 232",
         "color" : "#81649C", //violet
         "floor" : "6"
     },
@@ -165,7 +200,15 @@ subsection = [
    "color" : "#81649C",
    "floor" : "6"
        
-    },   
+    },
+    
+    {
+   "subsection" : "Subject Reference Corner",
+   "mid" : "686, 140",
+   "color" : "#4F82B7",
+   "floor" : "6"
+    },
+    
     {
    "subsection" : "Gediatrics",
     "mid" :"686, 140",             
@@ -208,14 +251,33 @@ subsection = [
    "subsection" : "Medical Microbiology",
    "mid" : "826, 140",  
    "color" :"#4F82B7", //blue   
-   "floor" : "6"   
+   "floor" : "6"
+    
     },
-    {      
+    
+    {
+        
    "subsection" : "Communicable Disease",
    "mid" : "826, 140",  
    "color" :"#4F82B7", //blue
    "floor" : "6"
     },
+    
+    {
+   "subsection" : "Pediatrics",
+   "mid" : "854, 140",           
+   "color" :"#81649C", //violet  
+   "floor" : "6"
+    
+    },
+    {
+    "subsection": "Pediatrics",
+    "mid" : "864, 140",             
+    "color" :"#4F82B7", //blue  
+    "floor" : "6"
+
+    },
+    
     {
    "subsection" : "Diseases of Cardiovascular System",
    "mid" : "888, 140",     
@@ -275,6 +337,33 @@ subsection = [
     "mid" : "960, 140",             
    "color" :"#81649C", //violet 
    "floor" : "6"
+    },
+
+    
+    {
+        
+   "subsection" : "Journals",
+   "mid" : "968, 140",           
+   "color" :"#4F82B7", //blue  
+   "floor" : "6"
+    
+    },
+    
+    {   
+    "subsection" : "Journals",
+    "mid" : "996, 140",             
+    "color" :"#81649C", //violet  
+    "floor" : "6"
+    
+    
+    },
+    
+    {
+   "subsection" : "Journals",
+   "mid" : "1006, 140",         
+   "color" :"#4F82B7", //blue 
+   "floor" : "6"
+    
     },
     
     {
@@ -466,6 +555,13 @@ subsection = [
      "color" : "#4F82B7", //blue
      "floor" : "6"
     },
+    {
+     "subsecction": "Engineering",
+     "mid" : "49, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+
+    },
     
     {
     
@@ -609,15 +705,52 @@ subsection = [
         "floor" : "4"
     },
     {
-        "subsection" : "Filipiniana Reference/SLU Collection",
-        "mid" : "157.5, 309, 174.5, 309",
+        
+        "subsection" : "Filipiniana Reference",
+        "mid" : "157.5, 252, 174.5, 252",
         "color" : "#4F82B7",
         "floor" : "4"
     },
     {
-        "subsection" : "Filipiniana Reference/Cordillera Books",
+        "subsection" : "Filipiniana Reference",
+        "mid" : "157.5, 262, 174.5, 262",
+        "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "Filipiniana Reference",
+        "mid" : "157.5, 279, 174.5, 279",
+        "color" : "#4F82B7",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "Filipiniana Reference",
+        "mid" : "157.5, 289, 174.5, 289",
+        "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "SLU Collection",
+        "mid" : "157.5, 309, 174.5, 309",
+        "color" : "#4F82B7",
+        "floor" : "4"
+    },
+    {   
+        "subsection" : "SLU Collection",
+        "mid" : "157.5, 319, 174.5, 319",
+        "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "Cordillera Books",
         "mid" : "157, 334, 174.5, 334",
         "color" : "#4F82B7",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "Cordillera Books",
+        "mid" : "157.5, 342, 174.5, 342",
+        "color" : "#81649C",
         "floor" : "4"
     },
     {
@@ -627,9 +760,36 @@ subsection = [
         "floor" : "4"
     },
     {
+        "subsection" : "Filipiniana General Collection",
+        "min" : "551",
+        "max" : "900",
+        "mid" : "161, 305, 130, 305",
+        "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
+        
+        "subsection" : "Filipiniana General Collection",
+        "mid" : "161, 322, 130, 322",
+        "color" : "#4F82B7",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "Filipiniana General Collection",
+        "mid" : "161, 331, 130, 331",
+        "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
         "subsection" : "Rizal Books",
         "mid" : "157.5, 280.8, 8 ,280.8",
         "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
+        "subsection" : "Rizal Books",
+        "mid" : "161, 343.5, 7, 343.5",
+        "color" : "#4F82B7",
         "floor" : "4"
     },
     {
@@ -639,9 +799,21 @@ subsection = [
         "floor" : "4"
     },
     {
+        "subsection" : "General Novel",
+        "mid" : "284, 140.5",
+        "color" : "#81649C",
+        "floor" : "4"
+    },
+    {
         "subsection" : "Fiction",
         "mid" : "261, 140.5",
         "color" : "#4F82B7",
         "floor" : "4"
     },
+    {
+        "subsection" : "Fiction",
+        "mid" : "252, 140.5",
+        "color" : "#81649C",
+        "floor" : "4"
+    }
 ]

@@ -10,6 +10,22 @@
 	<Link rel="icon" href="images/icon/icon.png">
 	<script type="text/javascript" src="json/block.json"></script>
 	<script type="text/javascript" src="json/range.json"></script>
+	<script type="text/javascript" src="json/subsection.json"></script>
+	<script>
+		var myJSON1, text1, objBlock, myJSON2, text2, objRange,  myJSON3, text3;
+
+		//Storing data (block):
+		myJSON1 = JSON.stringify(block);
+		localStorage.setItem("data1", myJSON1);
+
+		//Storing data (range):
+		myJSON2 = JSON.stringify(range);
+		localStorage.setItem("data2", myJSON2);
+
+		//Storing data (subsection):
+		myJSON3 = JSON.stringify(subsection);
+		localStorage.setItem("data3", myJSON3);
+	</script>
 </head>
 
 <body>	
@@ -27,72 +43,6 @@
             </ul>
 </nav>
 
-<script>
-function myFunction(){
-var inputcat = document.getElementById("mySelect").value;
-var element = document.getElementById("text-search");
-var num =document.getElementById("text-search").value;
-var myObj1, myJSON1, text1, objBlock, myObj2, myJSON2, text2, objRange;
-
-//Storing data (block):
-myJSON1 = JSON.stringify(block);
-localStorage.setItem("data1", myJSON1);
-
-//Retrieving data(block):
-text1 = localStorage.getItem("data1");
-objBlock = JSON.parse(text1);
-
-//Storing data (range):
-myJSON2 = JSON.stringify(range);
-localStorage.setItem("data2", myJSON2);
-
-//Retrieving data(range):
-text2 = localStorage.getItem("data2");
-objRange = JSON.parse(text2);
-
-
-var valid1;
-
-for (var i = 0; i < objRange.length ; i++ ){
-	let cat = objRange[i].category;
-	var minRange = objRange[i].min;
-	var maxRange = objRange[i].max;
-
-	if (inputcat == cat){
-		element.setAttribute("min", minRange);
-		element.setAttribute("max", maxRange);
-		valid1 = true;
-
-	}
-}
-
-while (valid1 == true) {
-	for (var i = 0; i < objBlock.length ; i++ ){
-		let category = objBlock[i].category;
-		var mincat = objBlock[i].min;
-		var maxcat = objBlock[i].max;
-		var floor = objBlock[i].floor;
-		var valid2;
-
-		if (inputcat == category && num >= mincat && num <= maxcat ){
-			let target = floor +"thfloor.html"
-			document.getElementById("output1").innerHTML = "You have searched for : " + category + "-" + num;
-			document.getElementById("output2").innerHTML = "Result : " + "Located at the " + floor + "th floor of the library";
-			document.getElementById("anchorpage").href = "4thfloor.html";
-			localStorage.setItem("index", i);    
-			valid2 = true;
-		} 
-
-		if (valid2 != true) {
-			document.getElementById("output1").innerHTML = "";
-			document.getElementById("output2").innerHTML = "";
-		}
-	}
-}
-}
-
-
-</script>
 
 <div class="contentResponsive top-page"> 
 	<div class="container">
@@ -168,8 +118,66 @@ while (valid1 == true) {
 
 		<div class = "output">
 		<p id="output1"></p>
-		<p id="output2"><a id="anchorpage" href=""></a></p>
+		<p id="output2"></p>		
 		</div>
+
+		<script>
+
+		function myFunction(){
+			var inputcat = document.getElementById("mySelect").value;
+			var element = document.getElementById("text-search");
+			var num =document.getElementById("text-search").value;
+
+			//Retrieving data(block):
+			text1 = localStorage.getItem("data1");
+			objBlock = JSON.parse(text1);
+
+
+			//Retrieving data(range):
+			text2 = localStorage.getItem("data2");
+			objRange = JSON.parse(text2);
+
+
+			var valid1;
+
+			for (var i = 0; i < objRange.length ; i++ ){
+				let cat = objRange[i].category;
+				var minRange = objRange[i].min;
+				var maxRange = objRange[i].max;
+
+				if (inputcat == cat){
+					element.setAttribute("min", minRange);
+					element.setAttribute("max", maxRange);
+					valid1 = true;
+				}
+			}
+
+			if (valid1 == true) {
+				for (var i = 0; i < objBlock.length ; i++ ){
+					let category = objBlock[i].category;
+					var mincat = objBlock[i].min;
+					var maxcat = objBlock[i].max;
+					var floor = objBlock[i].floor;
+					var valid2;
+
+					if (inputcat == category && num >= mincat && num <= maxcat ){
+						let target = floor +"thfloor.html"
+						document.getElementById("output1").innerHTML = "You have searched for : " + category + "-" + num;
+						var str = "It is located at the " + floor + "th of the library (Click)";
+			   			var result = str.link(floor +"thfloor.html");
+			 			document.getElementById("output2").innerHTML = result;
+						localStorage.setItem("index", i);    
+						valid2 = true;
+					} 
+
+					if (valid2 != true) {
+						document.getElementById("output1").innerHTML = "";
+						document.getElementById("output2").innerHTML = "";
+					}
+				}
+			}
+		}
+		</script>
 	</div>
 
 	<div class = "right-content">
