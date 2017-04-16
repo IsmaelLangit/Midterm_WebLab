@@ -1,430 +1,647 @@
-block = [
-    // upper right&left 6th floor
+subsection = [
+    //6th FLOOR
     {
-		"Subsection" : "Subject Reference Corner",
-                  "mid" : "678, 140",
-                  "color" : "#81649C",
+        "subsection" : "Bound Periodicals",
+        "mid" :"318, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Literature",
+        "mid" :"308, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Technical Writing",
+        "mid" :"284, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "American Literature",
+        "mid" :"250, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "English Literature",
+        "mid" :"240, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "German Literature",
+        "mid" :"206, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Classical Literature",
+        "mid" :"174, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "History and Geography",
+        "mid" :"152, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Biography and Geneology",
+        "mid" :"142, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "European Books",
+        "mid" :"122, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Asian Books",
+        "mid" :"112, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "North American Books",
+        "mid" :"82, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "African Books",
+        "mid" :"63, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "South American Books",
+        "mid" :"53, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Australian Books",
+        "mid" :"33, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
 
-    },
-    
+    //6th floor lower right
     {
-                "Subsection" : "Subject Reference Corner",
-                "mid" : "686, 140",
-                "color" : "#4F82B7",
+        "subsection" : "Technical Drawing and Technology",
+        "mid" : "783, 234",
+        "color" : "#81649C", //violet
+        "floor" : "6"
     },
-    
     {
-                "Subsection" : "Gediatrics",
-                 "mid" :"686, 140",             
-                "color" : "#81649C", //violet
+        "subsection" : "Nursing Education",
+        "mid" : "793, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Nursing Books",
+        "mid" : "818, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Human Anatomy",
+        "mid" : "864, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Human Physiology",
+        "mid" : "888, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Neuropsychology and Health",
+        "mid" : "925, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Physical Fitness",
+        "mid" : "934, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Pharmacology",
+        "mid" : "959, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Therapeutics and Pharmacokinetics",
+        "mid" : "1005, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Pharmacokinetics",
+        "mid" : "1030, 232",
+        "color" : "#81649C", //violet
+        "floor" : "6"
+    },
+    {
+        "subsection" : "Toxicology",
+        "mid" : "1040, 232",
+        "color" : "#4F82B7", //blue
+        "floor" : "6"
+    },
+
+    {
+   "subsection" : "Subject Reference Corner",
+   "mid" : "678, 140",
+   "color" : "#81649C",
+   "floor" : "6"
+       
+    },   
+    {
+   "subsection" : "Gediatrics",
+    "mid" :"686, 140",             
+   "color" : "#81649C", //violet
+   "floor" : "6"
     },           
     {
-                 "Subsection" : "Pediatrics",
-                 "mid" : "720, 140",            
-                 "color" :"#4F82B7", //blue  
+    "subsection" : "Pediatrics",
+    "mid" : "720, 140",            
+    "color" :"#4F82B7", //blue  
+    "floor" : "6"
     },
     {
-                 "Subsection" : "Obstetrics",
-                 "mid" : "749, 140",   
-                 "color" :"#81649C", //violet   
+    "subsection" : "Obstetrics",
+    "mid" : "749, 140",   
+    "color" :"#81649C", //violet 
+    "floor" : "6"
     },
     {
-                 "Subsection" : "Gynecology",
-                 "mid" : "749, 140",   
-                 "color" :"#81649C", //violet
+    "subsection" : "Gynecology",
+    "mid" : "749, 140",   
+    "color" :"#81649C", //violet
+    "floor" : "6"
     },
      
     {
-                "Subsection" : "Oncology",
-                "mid" : "792, 140",       
-                "color" :"#4F82B7", //blue  
-    
+   "subsection" : "Oncology",
+   "mid" : "792, 140",       
+   "color" :"#4F82B7", //blue  
+   "floor" : "6"
     },   
     {
-               "Subsection" : "Surgery",
-                "mid" : "792, 140",       
-                "color" :"#4F82B7", //blue  
-    
-        
+    "subsection" : "Surgery",
+   "mid" : "792, 140",       
+   "color" :"#4F82B7", //blue  
+   "floor" : "6"        
     },
     
     {           
-                "Subsection" : "Medical Microbiology",
-                "mid" : "826, 140",  
-                "color" :"#4F82B7", //blue    
+   "subsection" : "Medical Microbiology",
+   "mid" : "826, 140",  
+   "color" :"#4F82B7", //blue   
+   "floor" : "6"   
+    },
+    {      
+   "subsection" : "Communicable Disease",
+   "mid" : "826, 140",  
+   "color" :"#4F82B7", //blue
+   "floor" : "6"
+    },
+    {
+   "subsection" : "Diseases of Cardiovascular System",
+   "mid" : "888, 140",     
+   "color" :"#81649C", //violet 
+   "floor" : "6"
+    
+    },
+    
+    {
+   "subsection" : "Physical Diagnosis" ,
+   "mid" : "897, 140",             
+   "color" :"#4F82B7", //blue
+   "floor" : "6"
     
     },
     
     {
         
-                "Subsection" : "Communicable Disease",
-                "mid" : "826, 140",  
-                "color" :"#4F82B7", //blue 
-    },
-    
-    {
-                "Subsection" : "Pediatrics",
-                "mid" : "854, 140",           
-                "color" :"#81649C", //violet   
-    
-    },
-    {
-                 "Subsection": "Pediatrics",
-                 "mid" : "864, 140",             
-                 "color" :"#4F82B7", //blue   
-                
-    },
-    
-    {
-                "Subsection" : "Diseases of Cardiovascular System",
-                "mid" : "888, 140",     
-                "color" :"#81649C", //violet   
-    
-    },
-    
-    {
-                "Subsection" : "Physical Diagnosis" ,
-                "mid" : "897, 140",             
-                "color" :"#4F82B7", //blue
-    
-    },
-    
-    {
-        
-                "Subsection" : "Radiologic Diagnosis" ,
-                "mid" : "897, 140",               
-                "color" :"#4F82B7", //blue
-    },
-    {
-                "Subsection": "Diagnosis & Prognosis",
-                "mid" : "925, 140",          
-                "color" :"#81649C", //violet
-    },
-    
-    {
-                "Subsection": "Pathology",
-                "mid" : "925, 140",          
-                "color" :"#81649C", //viole
-    },
-    
-    {
-                "Subsection": "Diseases",
-                "mid" : "934, 140",           
-                "color" :"#4F82B7", //blue 
-    
-    },
-    {
-                "Subsection": "Medical Emergencies",
-                "mid" : "934, 140",           
-                "color" :"#4F82B7", //blue
-        
-    },
-    
-    {
-        
-                "Subsection" : "Journals",
-                 "mid" : "960, 140",             
-                "color" :"#81649C", //violet 
-    },
+   "subsection" : "Radiologic Diagnosis" ,
+   "mid" : "897, 140",            
+   "color" :"#4F82B7", //blue
+   "floor" : "6"
 
+    },
+    {
+   "subsection": "Diagnosis & Prognosis",
+   "mid" : "925, 140",          
+   "color" :"#81649C", //violet
+   "floor" : "6"
+    },
+    
+    {
+   "subsection": "Pathology",
+   "mid" : "925, 140",          
+   "color" :"#81649C", //viole
+   "floor" : "6"
+    },
+    
+    {
+   "subsection": "Diseases",
+   "mid" : "934, 140",           
+   "color" :"#4F82B7", //blue 
+   "floor" : "6"
+    
+    },
+    {
+   "subsection": "Medical Emergencies",
+   "mid" : "934, 140",           
+   "color" :"#4F82B7", //blue
+   "floor" : "6"
+        
+    },
     
     {
         
-                "Subsection" : "Journals",
-                "mid" : "968, 140",               
-                "color" :"#4F82B7", //blue  
-    
-    },
-    
-    {   
-                 "Subsection" : "Journals",
-                 "mid" : "996, 140",             
-                 "color" :"#81649C", //violet   
-    
-    
+   "subsection" : "Journals",
+    "mid" : "960, 140",             
+   "color" :"#81649C", //violet 
+   "floor" : "6"
     },
     
     {
-                  "Subsection" : "Journals",
-                  "mid" : "1006, 140",         
-                  "color" :"#4F82B7", //blue 
-    
-    },
-    
-    {
-                 "Subsection" : "Radiologic",
-                 "mid" : "1032, 140", 
-                 "color" :"#81649C", //violet 
-                
+    "subsection" : "Radiologic",
+    "mid" : "1032, 140", 
+    "color" :"#81649C", //violet 
+   "floor" : "6"
     
     },
            
     {
     
-                   "Subsection" : "SNS Book",
-                   "mid" : "1040, 140",         
-                   "color" :"#4F82B7", //blue
+    "subsection" : "SNS Book",
+    "mid" : "1040, 140",         
+    "color" :"#4F82B7", //blue
+    "floor" : "6"
     
     },
     
     //upper left
     {
-                    "Subsection" : "Machinery",
-                     "mid" : "394, 140",
-                     "color" : "#4F82B7" //blue
+     "subsection" : "Machinery",
+      "mid" : "394, 140",
+      "color" : "#4F82B7", //blue
+      "floor" : "6"
     },
     {   
-                     "Subsection" : "Plumbing",
-                      "mid" : "385, 140",
-                      "color" : "#4F82B7" //blue
+      "subsection" : "Plumbing",
+       "mid" : "385, 140",
+       "color" : "#4F82B7", //blue
+       "floor" : "6"
     },
     
     {
-                    "Subsection": "Cabling",
-                    "mid" : "356, 140",
-                    "color" : "#81649C" //violet
+     "subsection": "Cabling",
+     "mid" : "356, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
     },
     
     {
-                    "Subsection": "Engineering",
-                    "mid" : "338, 140",
-                    "color" : "#4F82B7" //blue
+     "subsection": "Engineering",
+     "mid" : "338, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
     },
     
     {
-                    "Subsection": "Mechanical Engineering",
-                    "mid" : "328, 140",
-                    "color" : "#81649C" //violet
+     "subsection": "Mechanical Engineering",
+     "mid" : "328, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Electrical Engineering",
+     "mid" : "311, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
+    },
+
+    {
+     "subsection": "ECE",
+     "mid" : "302, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Circuit Design",
+     "mid" : "283, 140",
+     "color" : "#4F82B7", //blue  
+     "floor" : "6"
+    },
+    
+    {
+     "subsection" : "Thermodynamics",
+     "mid" : "273, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Machine Engineering",
+     "mid" : "255, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Civil Engineering",
+     "mid" : "245, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
         
     },
     
     {
+     "subsection": "Structural Design",
+     "mid" : "227, 140",
+     "color" : "#4F82B7", //blue 
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Sanitary and Environmental Engineering",
+     "mid" : "217, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Agriculture",
+     "mid" : "200, 140",
+     "color" : "#4F82B7", //blue 
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "General Management",
+     "mid" : "190, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Personal Management",       
+     "mid" : "171, 140",
+     "color" : "#4F82B7",//blue
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Production Management",
+     "mid" : "161, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Advertising",
+     "mid" : "143, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
+    },
+    
+    {
+
+     "subsection": "Manufacturing",
+     "mid" : "133, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+     "subsection": "Constructions of Buildings",
+     "mid" : "114, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
+    },
+    
+    {
+
+     "subsection": "Landscape Architecture and Engineering",
+     "mid" : "104, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+    
+    {
+
+     "subsection": "Architetuural Designs and Thoery",
+     "mid" : "86, 140",
+     "color" : "#4F82B7", //blue 
+     "floor" : "6"
+    },
+    
+    {
+
+     "subsection": "Photography,Painting & House Design",
+     "mid" : "76, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+
+    {
+     "subsection": "Performing Arts",
+     "mid" : "59, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
+    },
+    
+    {
+    
+     "subsection": "Construction and Mining",
+     "mid" : "31, 140",
+     "color" : "#4F82B7", //blue
+     "floor" : "6"
+    },
+
+    {
+     "subsection": "Chemical Engineering and Journal of Transporation Engineering",
+     "mid" : "22, 140",
+     "color" : "#81649C", //violet
+     "floor" : "6"
+    },
+
+
+    // 5TH FLOOR 
+            {
+        "subsection" : "American Politics and Government",
+        "mid" : "939, 141",
+        "color" : "#81649C",
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Criminal Law and Civil Code",
+        "mid" : "802, 141",
+        "color" : "#4F82B7",
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Educational Psychology",
+        "mid" : "170, 143",
+        "color" : "#81649C",
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Encyclopedia and Books of Knowledge",
+        "mid" : "759, 238",
+        "color" : "#81649C",
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Environment and Society",
+        "mid" : "880, 141",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Generalities",
+        "mid" : "934, 238",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "History of Education",
+        "mid" : "146, 143",
+        "color" : "#4F82B7",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Land Economics",
+        "mid" : "345, 143",
+        "color" : "#4F82B7",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Language",
+        "mid" : "83, 237",
+        "color" : "#81649C",
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Law and Official Gazette",
+        "mid" : "671, 141",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Law and Supreme Court Reports",
+        "mid" : "701, 141",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Mental Health",
+        "mid" : "312, 143",
+        "color" : "#4F82B7",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Philosophy and Psychology",
+        "mid" : "915, 238",
+        "color" : "#4F82B7",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Principles of Guidance Counseling",
+        "mid" : "235, 143",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Programming and Data Structures",
+        "mid" : "876, 238",
+        "color" : "#81649C",   
+        "floor" : "5"
+        },  
+        {        
+        "subsection" : "Pure Science Bound Periodicals",
+        "mid" : "312, 237",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Review Material(Engr Edu and Social Sciences)",
+        "mid" : "25, 237",
+        "color" : "#81649C",  
+        "floor" : "5"
+        },  
+        {
+        "subsection" : "Subject Reference",
+        "mid" : "55, 237",
+        "color" : "#81649C",
+        "floor" : "5"
+        },  
+
+        // 4th FLOOR
+
+        {
+        "subsection" : "Thesis",
+        "mid" : "357.4, 282.8, 366.4, 283.8",
+        "color" : "#4F82B7",
+        "floor" : "4"
+    },
         
-                    "Subsection": "Electrical Engineering",
-                    "mid" : "311, 140",
-                    "color" : "#4F82B7" //blue
-    },
-
     {
-                    "Subsection": "ECE",
-                    "mid" : "302, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-                    "Subsection": "Circuit Design",
-                    "mid" : "283, 140",
-                    "color" : "#4F82B7" //blue            
-    },
-    
-    {
-                    "Subsection" : "Thermodynamics",
-                    "mid" : "273, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-                    "Subsection": "Machine Engineering",
-                    "mid" : "255, 140",
-                    "color" : "#4F82B7" //blue
-    },
-    
-    {
-                    "Subsection": "Civil Engineering",
-                    "mid" : "245, 140",
-                    "color" : "#81649C" //violet
-        
-    },
-    
-    {
-                    "Subection": "Structural Design",
-                    "mid" : "227, 140",
-                    "color" : "#4F82B7" //blue 
-    },
-    
-    {
-                    "Subsection": "Sanitary and Environmental Engineering",
-                    "mid" : "217, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-                    "Subsection": "Agriculture",
-                    "mid" : "200, 140",
-                    "color" : "#4F82B7" //blue 
-    },
-    
-    {
-                    "Subsection": "General Management",
-                    "mid" : "190, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-                    "Subsection": "Personal Management",       
-                    "mid" : "171, 140",
-                    "color" : "#4F82B7" //blue
-    },
-    
-    {
-                    "Subsection": "Production Management",
-                    "mid" : "161, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-                    "Subsection": "Advertising",  
-                    "mid" : "143, 140",
-                    "color" : "#4F82B7" //blue
-    },
-    
-    {
-
-                    "Subsection": "Manufacturing",
-                    "mid" : "133, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-                    "Subsection": "Constructions of Buildings",
-                    "mid" : "114, 140",
-                    "color" : "#4F82B7" //blue        
-    },
-    
-    {
-
-                    "Subsection": "Landscape Architecture and Engineering",
-                    "mid" : "104, 140",
-                    "color" : "#81649C" //violet
-    },
-    
-    {
-
-                    "Subsection": "Architetuural Designs and Thoery",
-                    "mid" : "86, 140",
-                    "color" : "#4F82B7" //blue  
-    },
-    
-    {
-
-                    "Subsection": "Photography,Painting & House Design",
-                    "mid" : "76, 140",
-                    "color" : "#81649C" //violet
-    },
-
-    {
-                    "Subsection": "Performing Arts",
-                    "mid" : "59, 140",
-                    "color" : "#4F82B7" //blue
+        "subsection" : "Filipiniana Reference",
+        "mid" : "157.5, 228, 174.5, 228",
+        "color" : "#4F82B7",
+        "floor" : "4"
     },
     {
-                    "Subsecction": "Engineering",
-                    "mid" : "49, 140",
-                    "color" : "#81649C" //violet
-
-    },
-    
-    {
-    
-                    "Subsection": "Construction and Mining",
-                    "mid" : "31, 140",
-                    "color" : "#4F82B7" //blue
-    },
-
-    {
-                    "Subsection": "Chemical Engineering and Journal of Transporation Engineering",
-                    "mid" : "22, 140",
-                    "color" : "#81649C" //violet
-    },
-
-    {
-                    "Subsection" : "American Politics and Government",
-                    "mid" : "939, 141",
-                    "color" : "#81649C"
+        "subsection" : "Filipiniana Reference/SLU Collection",
+        "mid" : "157.5, 309, 174.5, 309",
+        "color" : "#4F82B7",
+        "floor" : "4"
     },
     {
-                    "Subsection" : "Criminal Law and Civil Code",
-                    "mid" : "802, 141",
-                    "color" : "#4F82B7"
+        "subsection" : "Filipiniana Reference/Cordillera Books",
+        "mid" : "157, 334, 174.5, 334",
+        "color" : "#4F82B7",
+        "floor" : "4"
     },
     {
-                    "Subsection" : "Educational Psychology",
-                    "mid" : "170, 143",
-                    "color" : "#81649C" 
+        "subsection" : "Filipiniana General Collection",
+        "mid" : "159, 296, 128, 296",
+        "color" : "#4F82B7",
+        "floor" : "4"
     },
     {
-                    "Subsection" : "Encyclopedia and Books of Knowledge",
-                    "mid" : "759, 238",
-                    "color" : "#81649C"
+        "subsection" : "Rizal Books",
+        "mid" : "157.5, 280.8, 8 ,280.8",
+        "color" : "#81649C",
+        "floor" : "4"
     },
     {
-                    "Subsection" : "Environment and Society",
-                    "mid" : "880, 141",
-                    "color" : "#81649C"  
+        "subsection" : "General Novel",
+        "mid" : "292, 140.5",
+        "color" : "#4F82B7",
+        "floor" : "4"
     },
     {
-                    "Subsection" : "Generalities",
-                    "mid" : "934, 238",
-                    "color" : "#81649C"  
+        "subsection" : "Fiction",
+        "mid" : "261, 140.5",
+        "color" : "#4F82B7",
+        "floor" : "4"
     },
-    {
-                    "Subsection" : "History of Education",
-                    "mid" : "146, 143",
-                    "color" : "#4F82B7"  
-    },
-    {
-                    "Subsection" : "Land Economics",
-                    "mid" : "345, 143",
-                    "color" : "#4F82B7"  
-    },
-    {
-                    "Subsection" : "Language",
-                    "mid" : "83, 237",
-                    "color" : "#81649C"
-    },
-    {
-                    "Subsection" : "Law and Official Gazette",
-                    "mid" : "671, 141",
-                    "color" : "#81649C"  
-    },
-    {
-                    "Subsection" : "Law and Supreme Court Reports",
-                    "mid" : "701, 141",
-                    "color" : "#81649C"  
-    },
-    {
-                    "Subsection" : "Mental Health",
-                    "mid" : "312, 143",
-                    "color" : "#4F82B7"  
-    },
-    {
-                    "Subsection" : "Philosophy and Psychology",
-                    "mid" : "915, 238",
-                    "color" : "#4F82B7"  
-    },
-    {
-                    "Subsection" : "Principles of Guidance Counseling",
-                    "mid" : "235, 143",
-                    "color" : "#81649C"  
-    },
-    {
-                    "Subsection" : "Programming and Data Structures",
-                    "mid" : "876, 238",
-                    "color" : "#81649C"    
-    },
-    {        
-                    "Subsection" : "Pure Science Bound Periodicals",
-                    "mid" : "312, 237",
-                    "color" : "#81649C"  
-    },
-    {
-                    "Subsection" : "Review Material(Engr Edu and Social Sciences",
-                    "mid" : "25, 237",
-                    "color" : "#81649C"  
-    },
-    {
-                    "Subsection" : "Subject Reference",
-                    "mid" : "55, 237",
-                    "color" : "#81649C"
-    },          
 ]
