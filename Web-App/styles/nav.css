@@ -1,3 +1,5 @@
+/* Giving a background-color to the nav. */
+
 nav { 
   margin:0;
   padding: 0;
@@ -37,12 +39,12 @@ nav a:hover {
 
 #logo {
   display: block;
-  padding: 5px 30px 5px 30px;
+  padding: 6px 30px 4px 30px;
   float: left;
 }
 
 #logo img{
-  width: 170px;
+  width: 150px;
 }
 
 .menu a {
@@ -68,12 +70,14 @@ nav a:hover {
     float: none;
   }
 
+  /* Hide the navigation menu by default */
   .toggle + a,
   .menu {
     display: none;
     text-align: center;
   }
 
+  /* Styling the toggle lable */
   .toggle {
     display: block;
     background-color: #162d24;
@@ -89,3 +93,24 @@ nav a:hover {
     background-color: #254f3e;
     cursor: pointer;
   }
+
+  /* Display Dropdown when clicked on Parent Lable */
+  [id^=drop]:checked + ul {
+    display: block;
+  }
+
+  /* Change menu item's width to 100% */
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media all and (max-width : 200px) {
+
+  nav ul li {
+    display:block;
+    width: 94%;
+  }
+
+}
